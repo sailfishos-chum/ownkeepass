@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="hu_HU">
+<TS version="2.1" language="nl_BE">
 <context>
     <name>AboutPage</name>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="47"/>
         <source>About ownKeepass</source>
-        <translation>Az ownKeepass-ról</translation>
+        <translation>Over ownKeepass</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="48"/>
         <source>Password Safe</source>
-        <translation>Biztonságos jelszó</translation>
+        <translation>Wachtwoordkluis</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="74"/>
         <source>Version</source>
-        <translation>Verzió</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="96"/>
         <source>Email</source>
-        <translation>E-mail</translation>
+        <translation>E-mailadres</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="102"/>
         <location filename="../qml/content/AboutPage.qml" line="134"/>
         <source>License</source>
-        <translation>Licensz</translation>
+        <translation>Licentie</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="109"/>
         <source>ownKeepass is distributed under the terms of the GNU General Public License (GPL) version 2 or (at your option) version 3.</source>
-        <translation>Az ownKeepass a GNU General Public License (GPL) 2-es verziója szerint vagy a GPL 3-as verziójának (az Ön választása szerint) feltételeivel terjeszthető.</translation>
+        <translation>ownKeepass wordt verspreid onder de voorwaarden van de GNU General Public License (GPL) versie 2 of (naargelang uwe voorkeur) versie 3.</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="141"/>
         <source>Change log</source>
-        <translation>Változásnapló</translation>
+        <translation>Wijzigingslog</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="190"/>
         <source>Credits</source>
-        <translation>Impresszum</translation>
+        <translation>Merci aan</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="198"/>
         <source>My best appreciations go to:</source>
-        <translation>A legnagyobb elismerésem:</translation>
+        <translation>Mijn dank gaat uit naar:</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="199"/>
         <source>Jolla (for continuing where Nokia stopped)</source>
-        <translation>Jolla (folytatva ahol a Nokia abbahagyta)</translation>
+        <translation>Jolla (voor voort te gaan waar da Nokia gestopt is)</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="200"/>
         <source>The KeepassX project (for a Qt implementation of Keepass)</source>
-        <translation>A KeepassX projekt (a Keepass Qt átültetéséhez)</translation>
+        <translation>’t KeepassX-project (voor hun implementatie van Keepass in Qt)</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="202"/>
         <source>And finally many thanks to all translators on %1 and contributors on %2 (for keeping me motivated to work on ownKeepass)</source>
         <extracomment>%1 and %2 are placeholders for links to the project on transifex and github</extracomment>
-        <translation>Végül rengeteg köszönet minden fordítónak itt: %1 és minden közreműködőnek itt: %2 (hogy motiváltak, hogy tovább dolgozzak az ownKeepass-on)</translation>
+        <translation>En tot slot nog veel dank aan alle vertalers op %1 en medewerkers op %2 (voor mij gemotiveerd te houden voor verder te werken aan ownKeepass)</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="205"/>
@@ -73,17 +73,17 @@
     <message>
         <location filename="../qml/content/AboutPage.qml" line="209"/>
         <source>Alphabetical list of all translators:</source>
-        <translation>A fordítók abc sorrendben:</translation>
+        <translation>Alle vertalers in alfabetische volgorde:</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="256"/>
         <source>I hope you have as much fun using ownKeepass as I have creating it!</source>
-        <translation>Remélem, nektek legalább annyi élvezetet okoz az ownKeepass alkalmazása, mint amennyit nekem okozott a megalkotása!</translation>
+        <translation>Ik hoop dade evenveel plezier beleeft aan ’t gebruiken van ownKeepass als ik bij ’t ontwikkelen dervan!</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="147"/>
         <source>Donate or Contribute</source>
-        <translation>Adományozás, hozzájárulás</translation>
+        <translation>Doneren of bijdragen</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="66"/>
@@ -93,17 +93,17 @@
     <message>
         <location filename="../qml/content/AboutPage.qml" line="155"/>
         <source>If you like my work feel free to show me your gratitude. Work on a translation, issue a bug report or improvement idea, send me a café or just like my app and talk about it in the Jolla store :)</source>
-        <translation>Amennyiben tetszik nektek a munkám, ne legyetek restek kifejezni hálátokat. Segítsetek újabb nyelvekre lefordítani a programot, segítsetek a hibakeresésben, vagy adjatok új ötleteket az alkalmazás fejlesztéséhez, de meghívhattok egy kávéra is, vagy egyszerűen csak nyomjatok like-ot rá és értékeljétek szövegesen is a Jolla áruházban :)</translation>
+        <translation>Als ge mijn werk waardeert, zou ’k ’t appreciëren als ge mij uw dankbaarheid toont. Helpt me vertalen, meldt bugs of ideeën, doe mij e koffieke cadeau of geeft nen duim aan mijnen app in de Jolla-winkel en klapt derover :)</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="170"/>
         <source>Translate</source>
-        <translation>Fordítás</translation>
+        <translation>Vertalen</translation>
     </message>
     <message>
         <location filename="../qml/content/AboutPage.qml" line="177"/>
         <source>Report bugs</source>
-        <translation>Hiba bejelentés</translation>
+        <translation>Bugs melden</translation>
     </message>
 </context>
 <context>
@@ -111,22 +111,22 @@
     <message>
         <location filename="../qml/content/ApplicationMenu.qml" line="40"/>
         <source>Add Additional Attribute</source>
-        <translation>Egyéb tulajdonság hozzáadása</translation>
+        <translation>Extra attribuut toevoegen</translation>
     </message>
     <message>
         <location filename="../qml/content/ApplicationMenu.qml" line="45"/>
         <source>About</source>
-        <translation>Névjegy</translation>
+        <translation>Over</translation>
     </message>
     <message>
         <location filename="../qml/content/ApplicationMenu.qml" line="52"/>
         <source>Help</source>
-        <translation>Súgó</translation>
+        <translation>Hulp</translation>
     </message>
     <message>
         <location filename="../qml/content/ApplicationMenu.qml" line="59"/>
         <source>Settings</source>
-        <translation>Beállítások</translation>
+        <translation>Instellingen</translation>
     </message>
 </context>
 <context>
@@ -134,22 +134,22 @@
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="36"/>
         <source>ownKeepass got updated</source>
-        <translation>Az ownKeepass frissítve lett.</translation>
+        <translation>ownKeepass is bijgewerkt geweest</translation>
     </message>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="37"/>
         <source>New version %1 now installed on your phone. Have a look in the change log for details.</source>
-        <translation>Az új, %1 verzió feltelepült a készülékre. A részletekért lásd a változás naplót.</translation>
+        <translation>De nieuwe versie, %1, is nu geïnstalleerd op uwe gsm. Als ge wilt kunde in ’t wijzigingslog kijken voor details.</translation>
     </message>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="57"/>
         <source>Password Safe</source>
-        <translation>Biztonságos jelszó</translation>
+        <translation>Wachtwoordkluis</translation>
     </message>
     <message>
         <location filename="../qml/content/ChangeLogPage.qml" line="65"/>
         <source>Change log</source>
-        <translation>Változásnapló</translation>
+        <translation>Wijzigingslog</translation>
     </message>
 </context>
 <context>
@@ -157,77 +157,77 @@
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="48"/>
         <source>Username copied into clipboard</source>
-        <translation>Felhasználónév kimásolva a vágólapra</translation>
+        <translation>Gebruikersnaam gekopieerd naar klembord</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="59"/>
         <source>Password copied into clipboard</source>
-        <translation>Jelszó kimásolva a vágólapra</translation>
+        <translation>Wachtwoord gekopieerd naar klembord</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="69"/>
         <source>Clipboard now empty</source>
-        <translation>A vágólap üres</translation>
+        <translation>’t Klembord is nu leeg</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="187"/>
         <source>Username</source>
-        <translation>Felhasználónév</translation>
+        <translation>Gebruikersnaam</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="187"/>
         <source>No username</source>
-        <translation>Nincs felhasználónév</translation>
+        <translation>Gene gebruikersnaam</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="213"/>
         <source>Password</source>
-        <translation>Jelszó</translation>
+        <translation>Wachtwoord</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="213"/>
         <source>No password</source>
-        <translation>Nincs jelszó</translation>
+        <translation>Geen wachtwoord</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="302"/>
         <source>No database opened</source>
-        <translation>Nincs nyitott adatbázis</translation>
+        <translation>Genen database geopend</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="309"/>
         <source>Create new database</source>
-        <translation>Új adatbázis létrehozása</translation>
+        <translation>Nieuwen database aanmaken</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="316"/>
         <source>Open database</source>
-        <translation>Adatbázis megnyitása</translation>
+        <translation>Database openen</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="323"/>
         <source>Database is locked</source>
-        <translation>Adatbázis zárolva</translation>
+        <translation>Database is vergrendeld</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="330"/>
         <source>You have unsaved changes pending</source>
-        <translation>El nem mentett módosításai vannak függőben</translation>
+        <translation>G’hebt onopgeslagen wijzigingen</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="337"/>
         <source>View password group</source>
-        <translation>Jelszócsoport megtekintése</translation>
+        <translation>Wachtwoordgroep weergeven</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="344"/>
         <source>Search for password entries</source>
-        <translation>Jelszóbejegyzések keresése</translation>
+        <translation>Zoeken achter wachtwoordvermeldingen</translation>
     </message>
     <message>
         <location filename="../qml/cover/CoverPage.qml" line="363"/>
         <source>Username and password are hidden</source>
-        <translation>A felhasználónév és jelszó rejtett.</translation>
+        <translation>Gebruikersnaam en wachtwoord zijn verborgen</translation>
     </message>
 </context>
 <context>
@@ -235,32 +235,32 @@
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="46"/>
         <source>Read only mode</source>
-        <translation>Csak olvasható üzemmód</translation>
+        <translation>Alleen-lezen-modus</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="52"/>
         <source>Hide search</source>
-        <translation>Keresés elrejtése</translation>
+        <translation>Zoekveld verbergen</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="52"/>
         <source>Show search</source>
-        <translation>Keresés megjelenítése</translation>
+        <translation>Zoekveld weergeven</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="61"/>
         <source>Database settings</source>
-        <translation>Adatbázis beállítások</translation>
+        <translation>Database-instellingen</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="70"/>
         <source>New password group</source>
-        <translation>Új jelszó csoport</translation>
+        <translation>Nieuwe wachtwoordgroep</translation>
     </message>
     <message>
         <location filename="../qml/content/DatabaseMenu.qml" line="79"/>
         <source>New password entry</source>
-        <translation>Új jelszó bejegyzés</translation>
+        <translation>Nieuwe wachtwoordinvoer</translation>
     </message>
 </context>
 <context>
@@ -268,58 +268,58 @@
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="88"/>
         <source>Database Settings</source>
-        <translation>Adatbázis beállítások</translation>
+        <translation>Database-instellingen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="86"/>
         <source>Save</source>
-        <translation>Mentés</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="87"/>
         <source>Discard</source>
-        <translation>Mégsem</translation>
+        <translation>Verwerpen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="92"/>
         <source>Change settings of your currently opened Keepass database here</source>
-        <translation>Itt lehetséges a jelenleg nyitva lévő Keepass adatbázis módosítása</translation>
+        <translation>Wijzigt hier d’instellingen van uwen huidig geopende Keepass-database</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="100"/>
         <source>Note: By changing the master password here, you will need to remember it next time when opening the Keepass database!</source>
-        <translation>Megjegyzés: amennyiben innen változtatják meg a mester jelszót, úgy azt feltétlen jegyezzük meg a Keepass adatbázis következő megnyitásáig!</translation>
+        <translation>Let op: als je hier het hoofdwachtwoord wijzigt, zal je het moeten onthouden voor de volgende keer dat je de Keepass-database opent!</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="110"/>
         <source>Master password</source>
-        <translation>Mesterjelszó</translation>
+        <translation>Hoofdwachtwoord</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="113"/>
         <source>Change master password</source>
-        <translation>Mesterjelszó megváltoztatása</translation>
+        <translation>Hoofdwachtwoord wijzigen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="138"/>
         <source>Master password confirmed</source>
-        <translation>Mesterjelszó megerősítve</translation>
+        <translation>Hoofdwachtwoord bevestigd</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="138"/>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="141"/>
         <source>Confirm master password</source>
-        <translation>Mesterjelszó megerősítése</translation>
+        <translation>Hoofdwachtwoord bevestigen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="156"/>
         <source>Encryption currently in use:</source>
-        <translation>Jelenleg használt titkosítás:</translation>
+        <translation>Huidige versleuteling:</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="175"/>
         <source>Key derivation function in use:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sleutelafleidingsfunctie in gebruik:</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="179"/>
@@ -329,12 +329,12 @@
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="201"/>
         <source>Key transformation rounds</source>
-        <translation>Kulcs-transzformációs ciklusok</translation>
+        <translation>Sleutelomvormingsronden</translation>
     </message>
     <message>
         <location filename="../qml/content/EditDatabaseSettingsDialog.qml" line="215"/>
         <source>Setting this value higher increases opening time of the Keepass database but makes it more robust against brute force attacks</source>
-        <translation>Ezt az értéket magasabbra állítva megnövekszik a Keepass adatbázis megnyitásához szükséges idő, ám az ellenállóbbá válik a brute force támadásokkal szemben.</translation>
+        <translation>Deze waarde verhogen zorgt voor ne langere laadtijd van de Keepass-database maar maakt den app wel beter beveiligd tegen aanvallen van buitenaf</translation>
     </message>
 </context>
 <context>
@@ -342,32 +342,32 @@
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="77"/>
         <source>Save</source>
-        <translation>Mentés</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="78"/>
         <source>Discard</source>
-        <translation>Mégsem</translation>
+        <translation>Verwerpen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="84"/>
         <source>Change icon</source>
-        <translation>Ikon megváltoztatása</translation>
+        <translation>Pictogram wijzigen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="131"/>
         <source>Change password entry details</source>
-        <translation>Jelszó megadás részleteinek megváltoztatása</translation>
+        <translation>Details van wachtwoordinvoer wijzigen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="138"/>
         <source>Title</source>
-        <translation>Név</translation>
+        <translation>Titel</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="140"/>
         <source>Set title (mandatory)</source>
-        <translation>Név megadása (kötelező)</translation>
+        <translation>Titel instellen (verplicht)</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="157"/>
@@ -377,54 +377,54 @@
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="159"/>
         <source>Set URL</source>
-        <translation>URL megadása</translation>
+        <translation>URL instellen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="173"/>
         <source>Username</source>
-        <translation>Felhasználónév</translation>
+        <translation>Gebruikersnaam</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="175"/>
         <source>Set username</source>
-        <translation>Felhasználónév megadása</translation>
+        <translation>Gebruikersnaam instellen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="212"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="243"/>
         <source>Password</source>
-        <translation>Jelszó</translation>
+        <translation>Wachtwoord</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="213"/>
         <source>Set password</source>
-        <translation>Jelszó megdása</translation>
+        <translation>Wachtwoord instellen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="244"/>
         <source>Verify password</source>
-        <translation>Jelszó megerősítése</translation>
+        <translation>Wachtwoord bevestigen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="188"/>
         <source>Generate password</source>
-        <translation>Jelszó létrehozása</translation>
+        <translation>Wachtwoord genereren</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="268"/>
         <source>Comment</source>
-        <translation>Megjegyzés</translation>
+        <translation>Opmerking</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="270"/>
         <source>Set comment</source>
-        <translation>Megjegyzés megadása</translation>
+        <translation>Vult een opmerking in</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="340"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="427"/>
         <source>Set</source>
-        <translation>Beállítás</translation>
+        <translation>Instellen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="343"/>
@@ -433,31 +433,31 @@
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="445"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="447"/>
         <source>Edit Label</source>
-        <translation>Címke szerkesztése</translation>
+        <translation>Label bewerken</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="342"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="386"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="402"/>
         <source>Delete</source>
-        <translation>Törlés</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="280"/>
         <source>Change additional attributes</source>
-        <translation>Egyéb tulajdonság megváltoztatása</translation>
+        <translation>Extra attributen wijzigen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="373"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="392"/>
         <source>Cancel</source>
-        <translation>Mégsem</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="393"/>
         <location filename="../qml/content/EditEntryDetailsDialog.qml" line="402"/>
         <source>Accept</source>
-        <translation>Elfogadás</translation>
+        <translation>Aanvaarden</translation>
     </message>
 </context>
 <context>
@@ -465,42 +465,42 @@
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="91"/>
         <source>Save</source>
-        <translation>Mentés</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="92"/>
         <source>Discard</source>
-        <translation>Mégsem</translation>
+        <translation>Verwerpen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="96"/>
         <source>Change icon</source>
-        <translation>Ikon megváltoztatása</translation>
+        <translation>Pictogram wijzigen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="142"/>
         <source>Change group details</source>
-        <translation>Csoport részleteinek megváltoztatása</translation>
+        <translation>Details van groep wijzigen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="148"/>
         <source>Name of group</source>
-        <translation>Csoport neve</translation>
+        <translation>Naam van de groep</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="150"/>
         <source>Set name of group</source>
-        <translation>Csoport nevének megadása</translation>
+        <translation>Stelt de naam van de groep in</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="171"/>
         <source>Notes for the group</source>
-        <translation>Jegyzetek a csoporthoz</translation>
+        <translation>Notities voor de groep</translation>
     </message>
     <message>
         <location filename="../qml/content/EditGroupDetailsDialog.qml" line="173"/>
         <source>Set notes for the group</source>
-        <translation>Jegyzetek beállítása a csoporthoz</translation>
+        <translation>Stelt notities voor de groep in</translation>
     </message>
 </context>
 <context>
@@ -508,37 +508,37 @@
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="66"/>
         <source>Select</source>
-        <translation>Kiválasztás</translation>
+        <translation>Selecteren</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="67"/>
         <source>Cancel</source>
-        <translation>Mégsem</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="77"/>
         <source>Choose an icon for the password group:</source>
-        <translation>Válassz ikont a jelszócsoporthoz:</translation>
+        <translation>Kiest e pictogram voor de wachtwoordgroep:</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="78"/>
         <source>Choose an icon for the password entry:</source>
-        <translation>Válassz ikont a jelszó megadásához:</translation>
+        <translation>Kiest e pictogram voor de wachtwoordinvoer:</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="82"/>
         <source>Keepass Icons</source>
-        <translation>Keepass ikonok</translation>
+        <translation>Keepass-pictogrammen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="104"/>
         <source>Custom Database Icons</source>
-        <translation>Tetszőleges adatbázis ikonok</translation>
+        <translation>Aangepaste databasepictogrammen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditItemIconDialog.qml" line="126"/>
         <source>ownKeepass Icon Pack</source>
-        <translation>ownKeepass ikonok</translation>
+        <translation>ownKeepass-pictogrampakket</translation>
     </message>
 </context>
 <context>
@@ -546,87 +546,87 @@
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="93"/>
         <source>Save</source>
-        <translation>Mentés</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="94"/>
         <source>Discard</source>
-        <translation>Mégsem</translation>
+        <translation>Verwerpen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="95"/>
         <source>ownKeepass Settings</source>
-        <translation>ownKeepass Beállítások</translation>
+        <translation>ownKeepass-instellingen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="99"/>
         <source>Change default settings of your ownKeepass application here</source>
-        <translation>Az ownKeepass alapértelmezett beállításainak megváltoztatása</translation>
+        <translation>Verandert hier de standaardinstellingen van uw ownKeepass-applicatie</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="103"/>
         <source>Database</source>
-        <translation>Adatbázis</translation>
+        <translation>Database</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="109"/>
         <source>Default encryption</source>
-        <translation>Alapértelmezett titkosítás</translation>
+        <translation>Standaardversleuteling</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="157"/>
         <source>Default key transformation rounds</source>
-        <translation>Kulcs-transzformációs ciklusok alapértelmezett száma</translation>
+        <translation>Standaardsleutelomvormingsronden</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="171"/>
         <source>Setting this value higher increases opening time of the Keepass database but makes it more robust against brute force attacks</source>
-        <translation>Ezt az értéket magasabbra állítva megnövekszik a Keepass adatbázis megnyitásához szükséges idő, ám az ellenállóbbá válik a brute force támadásokkal szemben.</translation>
+        <translation>Deze waarde verhogen zorgt voor ne langere laadtijd van de Keepass-database maar maakt den app wel beter beveiligd tegen aanvallen van buitenaf</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="178"/>
         <source>Security</source>
-        <translation>Biztonság</translation>
+        <translation>Beveiliging</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="247"/>
         <source>Enable this to unlock your database quickly with just the first 3 characters of your master password.</source>
-        <translation>Engedélyezésével gyorsabban felnyitható az adatbázis - a mester jelszó első 3 karakterének megadásával.</translation>
+        <translation>Schakelt dit in voor uwen database rap t’ontgrendelen me slechts d’eerste 3 tekens van uw hoofdwachtwoord.</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="338"/>
         <source>Orientation</source>
-        <translation>Orientáció</translation>
+        <translation>Oriëntatie</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="517"/>
         <source>Extended list view</source>
-        <translation>Kibővített lista nézet</translation>
+        <translation>Uitgebreide lijstweergave</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="518"/>
         <source>If you switch this on username and password are shown below entry title in list views (reopen database to activate this setting)</source>
-        <translation>Ezt engedélyezve a lista nézetekben minden bejegyzés neve alatt megjelenik az ahhoz tartozó felhasználónév és jelszó (újra meg kell nyitni az adatbázist az aktiválásához).</translation>
+        <translation>Als ge dit inschakelt gaan de gebruikersnaam en ’t wachtwoord weergegeven worden onder den invoertitel in lijstweergaven (heropent den database voor deze instelling t’activeren)</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="358"/>
         <source>Language</source>
-        <translation>Nyelv</translation>
+        <translation>Taal</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="359"/>
         <source>Change of language will be active in ownKeepass after restarting the application</source>
-        <translation>Az új nyelvi beállítások az ownKeepass újbóli megnyitása után kerülnek érvénybe.</translation>
+        <translation>De taalwijziging gaat toegepast worden nadat d’applicatie herstart geweest is</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="363"/>
         <source>System default</source>
-        <translation>Rendszer által alapértelmezett</translation>
+        <translation>Systeemstandaard</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="190"/>
         <source>Inactivity lock time</source>
-        <translation>Tétlenségi zárolási idő</translation>
+        <translation>Periode van inactiviteit alvorens te vergrendelen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="129"/>
@@ -651,7 +651,7 @@
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="207"/>
         <source>Immediately</source>
-        <translation>Azonnal</translation>
+        <translation>Onmiddellijk</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="209"/>
@@ -663,13 +663,13 @@
         <location filename="../qml/content/EditSettingsDialog.qml" line="308"/>
         <location filename="../qml/content/EditSettingsDialog.qml" line="310"/>
         <source>seconds</source>
-        <translation>másodperc</translation>
+        <translation>seconden</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="215"/>
         <location filename="../qml/content/EditSettingsDialog.qml" line="312"/>
         <source>minute</source>
-        <translation>perc</translation>
+        <translation>minuut</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="217"/>
@@ -682,114 +682,114 @@
         <location filename="../qml/content/EditSettingsDialog.qml" line="318"/>
         <location filename="../qml/content/EditSettingsDialog.qml" line="320"/>
         <source>minutes</source>
-        <translation>percek</translation>
+        <translation>minuten</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="227"/>
         <source>Unlimited</source>
-        <translation>Korlátlan</translation>
+        <translation>Oneindig</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="246"/>
         <source>Fast unlock</source>
-        <translation>Gyors megnyitás</translation>
+        <translation>Rap ontgrendelen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="265"/>
         <source>Number of fast unlock retries</source>
-        <translation>Gyors megnyitási kísérletek száma</translation>
+        <translation>Aantal resterende pogingen voor rap ontgrendelen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="285"/>
         <source>Time to clear clipboard</source>
         <extracomment>This string will be used on the settings page under the slider to select the time period until when the clipboard will be emptied</extracomment>
-        <translation>Ideje kitörölni a vágólapot</translation>
+        <translation>Tijd vooraleer da ’t klembord gewist wordt</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="322"/>
         <source>Never</source>
-        <translation>Soha</translation>
+        <translation>Nooit</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="332"/>
         <source>UI settings</source>
-        <translation>UI beállítások</translation>
+        <translation>UI-instellingen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="339"/>
         <source>Change here orientation of the display</source>
-        <translation>A képernyő orientációját itt lehet megváltoztatni.</translation>
+        <translation>Wijzigt hier d’oriëntatie van ’t scherm</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="343"/>
         <source>Dynamic</source>
         <extracomment>Dynamic means that the display orientation is changed according how the device is hold by the user</extracomment>
-        <translation>Dinamikus</translation>
+        <translation>Dynamisch</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="344"/>
         <source>Portrait</source>
-        <translation>Portré</translation>
+        <translation>Portret</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="345"/>
         <source>Landscape</source>
-        <translation>Tájkép</translation>
+        <translation>Landschap</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="505"/>
         <source>Sort in alphabetical order</source>
-        <translation>ABC-szerinti rendezés</translation>
+        <translation>Sorteren op alfabetische volgorde</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="506"/>
         <source>Switching this on will sort all entries in the list view in alphabetical order otherwise database internal order is used (reopen database to activate this setting)</source>
-        <translation>Ezt aktiválva a lista nézet összes eleme ABC-sorrendbe lesz rendezve - egyéb tekintetben az adatbázis saját, belső sorrendisége lesz alkalmazva (újra meg kell nyitni az adatbázist az aktiválásához).</translation>
+        <translation>Als ge dat hier inschakelt gaan alle invoeren op alfabetische volgorde weergegeven worden in lijstweergaven ipv d’interne sortering (heropent den database voor deze instelling t’activeren)</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="529"/>
         <source>Focus search bar</source>
-        <translation>Keresősáv fókusza</translation>
+        <translation>Zoekbalk focussen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="530"/>
         <source>If enabled the search bar will be focused on application startup</source>
-        <translation>Ezt engedélyezve az alkalmazás indulásakor a keresősávon lesz alapértelmezetten a fókusz.</translation>
+        <translation>Indien ingeschakeld wordt de zoekbalk direct gefocust worden na ’t opstarten van d’applicatie</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="539"/>
         <source>Cover settings</source>
-        <translation>Borító beállítások</translation>
+        <translation>Omslaginstellingen</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="545"/>
         <source>Show username and password</source>
-        <translation>Felhasználónév és jelszó megjelenítése</translation>
+        <translation>Gebruikersnaam en wachtwoord weergeven</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="546"/>
         <source>Switching this on will show username and password of the currently opened Keepass entry on the cover</source>
-        <translation>Ezt aktiválva a borítón megjelenik majd a legutóbb megnyitott Keepass bejegyzés felhasználóneve és jelszava.</translation>
+        <translation>Als ge dat hier inschakelt gaan de gebruikersnaam en ’t wachtwoord van d’huidige Keepass-vermelding zichtbaar zijn op den omslag</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="557"/>
         <source>Lock database from cover</source>
-        <translation>Adatbázis lezárása borítóról</translation>
+        <translation>Database vergrendelen vanaf omslag</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="558"/>
         <source>This lets you lock the database with the left cover action</source>
-        <translation>Ez lehetővé teszi, hogy a borító bal oldali műveletével lezárjuk az adatbázist.</translation>
+        <translation>Dit laat u den database vergrendelen me de linker-omslagactie</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="569"/>
         <source>Copy&apos;n&apos;paste from cover</source>
-        <translation>Másolás és beillesztés a borítóról</translation>
+        <translation>Kopiëren-en-plakken vanaf omslag</translation>
     </message>
     <message>
         <location filename="../qml/content/EditSettingsDialog.qml" line="570"/>
         <source>Enable this to copy username and password into clipboard from cover</source>
-        <translation>Ezt aktiválva közvetlenül a borítóról vágólapra menthetjük a felhasználónevet és jelszót.</translation>
+        <translation>Schakelt dat hier in voor de gebruikersnaam en ’t wachtwoord naar ’t klembord te kopiëren vanaf den omslag</translation>
     </message>
 </context>
 <context>
@@ -797,88 +797,88 @@
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="74"/>
         <source>Problem with SD card</source>
-        <translation>Gond adódott az SD kártyával</translation>
+        <translation>Der is e probleem me de SD-kaart</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="75"/>
         <source>SD cards with multiple partitions are not supported.</source>
-        <translation>A több partícióval is rendelkező SD kártyák nem támogatottak.</translation>
+        <translation>SD-kaarten me meerdere partities worden nie ondersteund.</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="118"/>
         <source>Hide system files</source>
         <extracomment>Used in file browser to hide the system files</extracomment>
-        <translation>Rendszerfájlok elrejtése</translation>
+        <translation>Systeembestanden verbergen</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="120"/>
         <source>Show system files</source>
         <extracomment>Used in file browser to show the hidden system files</extracomment>
-        <translation>Rendszerfájlok megjelenítése</translation>
+        <translation>Systeembestanden weergeven</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="131"/>
         <source>Hide file filter</source>
         <extracomment>Used in file browser to hide the file name filter</extracomment>
-        <translation>Fájl-szűrő elrejtése</translation>
+        <translation>Bestandsfilter verbergen</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="133"/>
         <source>Show file filter</source>
         <extracomment>Used in file browser to show the file name filter</extracomment>
-        <translation>Fájl-szűrő megjelenítése</translation>
+        <translation>Bestandsfilter weergeven</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="143"/>
         <source>Select</source>
         <extracomment>As in select file</extracomment>
-        <translation>Kiválasztás</translation>
+        <translation>Selecteren</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="144"/>
         <source>Cancel</source>
-        <translation>Mégsem</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="159"/>
         <source>New file name</source>
-        <translation>Új fájlnév</translation>
+        <translation>Nieuwen bestandsnaam</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="160"/>
         <source>Enter new file name</source>
-        <translation>Új fájlnév megadása</translation>
+        <translation>Geeft ne nieuwen bestandsnaam in</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="201"/>
         <source>File filter</source>
-        <translation>Fájl-szűrő</translation>
+        <translation>Bestandsfilter</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="202"/>
         <source>Set file filter</source>
-        <translation>Fájl-szűrő beállítása</translation>
+        <translation>Bestandsfilter instellen</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="277"/>
         <source>Device Memory</source>
         <extracomment>&quot;Device Memory&quot; is used in the file browser and means all files which are saved under home folder of the user</extracomment>
-        <translation>Eszköz memória</translation>
+        <translation>Apparaatgeheugen</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="278"/>
         <source>SD Card</source>
-        <translation>SD kártya</translation>
+        <translation>SD-kaart</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="279"/>
         <source>Android Storage</source>
-        <translation>Android tárhely</translation>
+        <translation>Android-opslag</translation>
     </message>
     <message>
         <location filename="../qml/common/FileSystemDialog.qml" line="275"/>
         <source>Back</source>
-        <translation>Vissza</translation>
+        <translation>Terug</translation>
     </message>
 </context>
 <context>
@@ -887,23 +887,23 @@
         <location filename="../qml/scripts/Global.js" line="127"/>
         <source>Nothing selected yet</source>
         <extracomment>This is used in the file browser when the user has not yet selected any file.</extracomment>
-        <translation>Még semmi sincs kiválasztva</translation>
+        <translation>Nog niks geselecteerd</translation>
     </message>
     <message>
         <location filename="../qml/scripts/Global.js" line="130"/>
         <source>Device Memory</source>
         <extracomment>Like the user home folder in linux/unix</extracomment>
-        <translation>Eszköz memória</translation>
+        <translation>Apparaatgeheugen</translation>
     </message>
     <message>
         <location filename="../qml/scripts/Global.js" line="132"/>
         <source>SD Card</source>
-        <translation>SD kártya</translation>
+        <translation>SD-kaart</translation>
     </message>
     <message>
         <location filename="../qml/scripts/Global.js" line="134"/>
         <source>Android Storage</source>
-        <translation>Android tárhely</translation>
+        <translation>Android-opslag</translation>
     </message>
 </context>
 <context>
@@ -922,46 +922,46 @@
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="93"/>
         <source>Search</source>
-        <translation>Keresés</translation>
+        <translation>Zoeken</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="152"/>
         <source>No entries found</source>
-        <translation>Nem található bejegyzés</translation>
+        <translation>Geen vermeldingen gevonden</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="171"/>
         <source>Decrypting Keepass database</source>
-        <translation>Keepass adatbázis visszafejtése</translation>
+        <translation>Bezig me ’t ontsleutelen van de Keepass-database</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="193"/>
         <source>Group is empty</source>
-        <translation>A csoport üres.</translation>
+        <translation>Groep is leeg</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="194"/>
         <source>Pull down to add password groups or entries</source>
-        <translation>Jelszó csoportok vagy bejegyzések hozzáadásához húzd lefelé</translation>
+        <translation>Trekt omlag voor wachtwoordgroepen of -invoeren toe te voegen</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="307"/>
         <source>Loading</source>
-        <translation>Betöltés folyamatban</translation>
+        <translation>Bezig me laden</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="363"/>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="367"/>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="401"/>
         <source>Search in all groups</source>
-        <translation>Keresés az összes csoportban</translation>
+        <translation>Zoeken in alle groepen</translation>
     </message>
     <message>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="364"/>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="368"/>
         <location filename="../qml/content/GroupsAndEntriesPage.qml" line="402"/>
         <source>Search in</source>
-        <translation>Keresés ebben:</translation>
+        <translation>Zoeken in</translation>
     </message>
 </context>
 <context>
@@ -970,7 +970,7 @@
         <location filename="../qml/help/HelpCreateNewDatabase.qml" line="28"/>
         <source>On this page you can create a new database where ownKeepass will store your sensitive data.&lt;br&gt;&lt;br&gt;Open the file browser and choose a file name and a directory. You can choose to locate your database in device memory, on the SD card or in the Android Storage. If the SD card entry is grey then no SD card is inserted or the card is not correctly detected by the System. There should be only one formatted partition on the SD card. Currently multi-partition SD cards are not supported by ownKeepass. &quot;Android storage&quot; is there to share the database with Android Apps. However sharing files with the Android world can be annoying due to different file ownership and permissions. Please be aware of that.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;A key file can be used additionally to a master password to protect the Keepass database. Both are used together to generate a pass key which will open the database. So by using a file with lots of data inside the generated pass key becomes in principle stronger against attacks. You can use for example a random picture as key file.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Here goes the password for your new Keepass database. Please make sure you choose a long password of around 10 - 15 characters and use a mixture of small and big letters, numbers and special characters. Repeat the password in the &quot;Confirm Password&quot; field.&lt;br&gt;&lt;br&gt;</source>
         <extracomment>Changed &quot;home drive on the phone&quot; to &quot;Device Memory&quot;, removed section for &quot;Open automatically&quot;</extracomment>
-        <translation>Ezen az oldalon hozhatsz létre új adatbázist, melyben a Keepass majd tárolni fogja az érzékeny adataidat.&lt;br&gt;&lt;br&gt;Nyisd meg a fájl böngészőt és válassz egy nevet és könyvtárat a fájlodnak. Megadhatod, hogy hova kerüljön az adatbázisod: az eszköz memóriába, az SD kártyára, vagy az Android tárhelyre. Amennyiben az SD kártya bejegyzés szürke, az azt jelenti, hogy a készülékbe nincs SD kártya behelyezve, vagy a kártyát nem ismeri fel megfelelően a rendszer. Az SD kártyának egyetlen, osztatlan formázott partíciót kell tartalmaznia. Jelenleg az ownKeepass nem támogatja a több partícióval rendelkező SD kártyákat. Az &quot;Android tárhely&quot; kiválasztása lehetővé teszi az adatbázis Androidos alkalmazásokkal történő megosztását. Mindazonáltal a fájlok Androiddal való megosztása frusztráló lehet az eltérő fájl tulajdonosi és engedélykezelési rendszer miatt. Erre legyél tekintettel.&lt;br&gt;&lt;br&gt;Jó tanács: amennyiben felhőbe kívánod feltölteni a Keepass adatbázisodat, bizonyosodj meg arról, hogy a mester jelszó mellé helyileg eltárolt kulcsfájlt is alkalmazol. Ezt a kulcsfájlt ne töltsd fel a felhőbe!&lt;br&gt;&lt;br&gt;&lt;b&gt;Kulcsfájl használata&lt;/b&gt;A mester jelszó mellé a Keepass adatbázis további védelméért kulcsfájlt is használhatunk. Ebben az esetben a kettő együttesen generál egy kulcsot, mely nyitni fogja az adatbázist. Ebből adódóan egy nagy mennyiségű adatot tartalmazó fájl kulcsfájlként való használata elvileg lényegesen ellenállóbb a támadásokkal szemben. Példa gyanánt egy tetszőleges kép is használható kulcsfájlként.&lt;br&gt;&lt;br&gt;&lt;b&gt;Mester jelszó&lt;/b&gt;&lt;br&gt;&lt;br&gt;Itt adhatod meg az új Keepass adatbázis mester jelszavát. Lehetőség szerint minimum 10-15 karakter hosszú jelszót használj, kis- és nagybetűkkel, számokkal és speciális karakterekkel. Add meg ismét ezt a jelszót a &quot;Jelszó megerősítése&quot; mezőben.&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Op da blad hier kunde ne nieuwen database aanmaken waarin da ownKeepass uw gevoelige gegevens gaat opslaan.&lt;br&gt;&lt;br&gt;Opent den bestandsverkenner en kiest nen bestandsnaam en een -map. Ge kunt dervoor kiezen voor den database te plaatsen in uw persoonlijke map, op de SD-kaart of in de Android-opslagruimte. Als de SD-kaartoptie grijs is, dan is de SD-kaart nie aanwezig of herken ’t systeem ze nie. Der dient slechts één geformatteerde partitie aanwezig te zijn op de SD-kaart; SD-kaarten me meerdere partities worden voor de moment nie ondersteund door ownKeepass. ‘Android-opslag’ is aanwezig zodade den database kunt delen me Android-applicaties. ’t Kan dan alleen wel lastig worden voor sommige Android-applicaties door verschillend bestandseigenaarschap en -toestemmingen. Zijt daarvan bewust.&lt;br&gt;&lt;br&gt;Advies: als g’uwe Keepass-database uploadt naar een clouddienst, zorgt der dan voor dade ne lokaal opgeslagen sleutel gebruikt naast ’t hoofdwachtwoord. Dees sleutelbestand mag nie geüpload worden naar de clouddienst.&lt;br&gt;&lt;br&gt;&lt;b&gt;Sleutelbestand gebruiken&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ge kunt e sleutelbestand gebruiken naast ’t hoofdwachtwoord voor de Keepass-database te beschermen. Ze worden dan allebei gebruikt voor nen toegangssleutel aan te maken da den database kan openen. Een bestand me veel gegevens maakt de gegenereerden toegangssleutel sterker tegen aanvallen van buitenaf. Ge kunt bv. e willekeurig fotooke gebruiken als sleutelbestand.&lt;br&gt;&lt;br&gt;&lt;b&gt;Hoofdwachtwoord&lt;/b&gt;&lt;br&gt;&lt;br&gt;Dees is ’t wachtwoord voor uwe nieuwe Keepass-database. Gebruikt e lang wachtwoord me 10 - 15 tekens en gebruikt een combinatie van letters, nummers en speciale tekens. Herhaal ’t wachtwoord in ’t veld ‘Wachtwoord bevestigen’.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -978,7 +978,7 @@
     <message>
         <location filename="../qml/help/HelpDatabaseSettings.qml" line="27"/>
         <source>On this dialog you can change database internal settings of your currently opened Keepass database file.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Here you can type in a new master password for the Keepass database. Please note that if you forgot your master password there is no way to recover the password. It is not saved in the Keepass database and there is also no backdoor to open the database without your password. Furhtermore make sure you choose a long password of around 10 - 15 characters and use a mixture of small and big letters, numbers and special characters. Repeat the password in the &quot;Confirm Master Password&quot; field.&lt;br&gt;&lt;br&gt;&lt;b&gt;Encryption currently in use&lt;/b&gt;&lt;br&gt;&lt;br&gt;This is the encryption algorithm which is used to cipher the Keepass database content.&lt;br&gt;&lt;br&gt;&lt;b&gt;Key transformation rounds&lt;/b&gt;&lt;br&gt;&lt;br&gt;Set the default value for key transformation rounds for your Keepass database. This value controls the amount of encryption rounds computed on the master password. Adjusting this value has direct effect on the time needed to decrypt the database on loading. But setting this value higher makes the database more robust against brute force attacks. As a good compromise between security and usability you should adjust the value so that opening the database takes one second on your phone.&lt;br&gt;&lt;br&gt;</source>
-        <translation>Ebben a párbeszédpanelben lehetőséged van megváltoztatni a jelenleg megnyitott Keepass adatbázis állomány belső beállításait.&lt;br&gt;&lt;br&gt;&lt;b&gt;Mester jelszó&lt;/b&gt;&lt;br&gt;&lt;br&gt;Itt lehetőséged van új mester jelszót megadni a Keepass adatbázis számára. Fontos megjegyezni, hogy amennyiben elfelejtenéd a mester jelszavad, nincs mód annak helyreállítására. A mester jelszó nincs eltárolva a Keepass adatbázisba és nincs semmilyen kiskapu arra, hogy nélküle is ki lehetne nyitni. Továbbá bizonyosodj meg arról, hogy hosszú, legalább 10-15 karakteres jelszót válassz, mely kis- és nagybetűt, számot és speciális karaktert is tartalmaz. Add meg újra a jelszót a &quot;Mester jelszó megerősítése&quot; mezőben.&lt;br&gt;&lt;br&gt;&lt;b&gt;Jelenleg használt titkosítás&lt;/b&gt;&lt;br&gt;&lt;br&gt;Itt a Keepass adatbázis titkosítására használt algoritmus adható meg&lt;br&gt;&lt;br&gt;&lt;b&gt;Kulcs-transzformációs iterációk&lt;/b&gt;&lt;br&gt;&lt;br&gt;Itt adható meg a Keepass adatbázishoz használt kulcs-transzformációs iterációk száma. Ez az érték határozza meg a mester jelszón elvégzendő titkosítási iterációk számát. Ennek az értéknek az átállítása közvetlenül kihat az adatbázis betöltéskori feloldásának időigényére. Mindazonáltal ezt az értéket magasabbra állítva az adatbázis védettebb lesz a brute-force támadások ellen. A biztonság és gyorsaság közti arany középút megtalálásához ajánlatos úgy megadni ezt az értéket, hogy az adatbázis megnyitása a telefonon egy másodpercet vegyen igénybe.</translation>
+        <translation>In deze dialoog kan je interne instellingen voor het momenteel geopend Keepass-databasebestand wijzigen. &lt;br&gt;&lt;br&gt;&lt;b&gt;Hoofdwachtwoord&lt;/b&gt;&lt;br&gt;&lt;br&gt;Hier kan je een nieuw hoofdwachtwoord ingeven. Let op: als je je hoofdwachtwoord vergeet, is er geen enkele mogelijkheid om het te herstellen. Het wordt niet opgeslagen in de Keepass-database en is er ook geen achterdeurtje om de database te openen zonder je wachtwoord. Zorg er verder voor dat je een lang wachtwoord kiest van 10-15 karakters, en gebruik zowel kleine als grote letters, nummers en speciale karakters. Herhaal het wachtwoord in het &apos;Bevestig hoofdwachtwoord&apos;-veld.&lt;br&gt;&lt;br&gt;&lt;b&gt;Huidige versleuteling&lt;/b&gt;&lt;br&gt;&lt;br&gt;Dit is het versleutelingsalgoritme dat momenteel gebruikt wordt om de inhoud van de Keepass-database te versleutelen.&lt;br&gt;&lt;br&gt;&lt;b&gt;Sleuteltransformatierondes&lt;/b&gt;&lt;br&gt;&lt;br&gt;Stel de standaardwaarde voor sleuteltransformatierondes voor je Keepass-database in. Deze waarde bepaalt het aantal versleutelingsrondes die op je hoofdwachtwoord worden uitgevoerd. Deze waarde aanpassen heeft een onmiddellijk gevolg op de hoeveelheid tijd die nodig is om de database te ontsleutelen bij het laden. Deze waarde hoger instellen maakt de database echter wel bestendiger tegen brute-kracht-aanvallen. Als een goede overeenkomst tussen veiligheid en gebruiksvriendelijkheid zou je de waarde moeten instellen zodat het openen van de database ongeveer een seconde duurt op je telefoon.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -999,7 +999,7 @@
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="36"/>
         <source>&lt;b&gt;Usage of help pages&lt;/b&gt;&lt;br&gt;&lt;br&gt;Each page inside of ownKeepass has its own Help content. So please make use of it and learn about the features offered by ownKeepass.</source>
-        <translation>&lt;b&gt; A súgó oldalak használata &lt;/b&gt;&lt;br&gt;&lt;br&gt; Minden oldalnak az ownKeepass-on belül megvan a saját súgó tartalma. Így kérlek, vedd hasznát, hogy többet tudj meg az ownKeepass által felajánlott lehetőségekről.</translation>
+        <translation>&lt;b&gt;Gebruik van de hulppagina&apos;s&lt;/b&gt;&lt;br&gt;&lt;br&gt;Elke pagina in ownKeepass heeft zijn eigen hulpinformatie. Zorg ervoor dat je deze gebruikt en de mogelijkheden van ownKeepass leert.</translation>
     </message>
     <message>
         <location filename="../qml/help/HelpMainPage.qml" line="41"/>
@@ -1018,7 +1018,7 @@
         <location filename="../qml/help/HelpOpenNewDatabase.qml" line="28"/>
         <source>Here you can open an existing Keepass database file.&lt;br&gt;&lt;br&gt;Use the file browser to search for your Keepass database file. You will be able to look into the following locations: Device Memory, SD card and Android storage. If you have trouble with ownKeepass not finding the file please make sure to place it in below mentioned paths. &quot;Device Memory&quot; is located at &quot;%1&quot;. If a SD card is inserted in your phone it is located at &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Please note that SD cards with more than one partition are not supported.) &quot;Android storage&quot; is located at &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Advice: If you upload your Keepass database into the cloud please make sure you use a locally stored key file in addition to the master password. This key file should not be uploaded to the cloud service.&lt;br&gt;&lt;br&gt;&lt;b&gt;Use key file&lt;/b&gt;&lt;br&gt;&lt;br&gt;If you need a key file for opening your Keepass database please check this option.&lt;br&gt;&lt;br&gt;&lt;b&gt;Master password&lt;/b&gt;&lt;br&gt;&lt;br&gt;Type in here the password for your Keepass database.&lt;br&gt;&lt;br&gt;</source>
         <extracomment>Removed one sentence in section &quot;Use key file&quot;, Changed &quot;Home&quot; to &quot;Device Memory&quot;, Removed section for &quot;Open automatically&quot;, changed &lt;UUID&gt; to &amp;lt;UUID&amp;gt; so that it will be actually shown ;)</extracomment>
-        <translation>Itt egy már létező Keepass adatbázis file-t nyithatsz meg. &lt;br&gt;&lt;br&gt;Használd a filekezelőt a Keepass adatbázis file-od kereséséhez. A következő helyeken találhatod meg: Készülék memóriája, SD kártya vagy Android tárhely. Ha problémád akadt és az ownKeepass nem találja a file-t, ellenőrizd, hogy a fent említett helyeken van. &quot;Készülék memőria&quot; az &quot;%1&quot; helyen van. Ha SD kártya van a telefonodban, az a következő helyen van: &quot;/media/sdcard/&amp;lt;UUID&amp;gt;&quot;. (Egynél több partícióval rendelkező SD kártyák nem támogatottak!) Az &quot;Android tárhely&quot; a következő helyen van: &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Jótanács: ha feltöltöd felhőbe a Keepass adatbázisodat, akkor legyél biztos benne, hogy egy helyben (a telefonodon) tárolt kulcsfile-t is használsz a mester jelszó mellett! Ezt a kulcsfile-t nem szabad feltölteni a felhőbe.&lt;br&gt;&lt;br&gt;&lt;b&gt;Kulcsfile használata&lt;/b&gt;&lt;br&gt;&lt;br&gt;Ha kulcsfile-ra van szükséged a Keepass adatbázisod megnyitásához, jelöld be ezt az opciót.&lt;br&gt;&lt;br&gt;&lt;b&gt;Mester jelszó&lt;/b&gt;&lt;br&gt;&lt;br&gt;Írd ide a Keepass adatbázis jelszavadat.&lt;br&gt;&lt;br&gt;</translation>
+        <translation>Hier kan je een bestaand Keepass-databasebestand openen.&lt;br&gt;&lt;br&gt;Gebruik de bestandsverkenner om uw Keepass-databasebestand te vinden. Je kan zoeken in de volgende locaties: Persoonlijke map, SD-kaart en Android-opslag. Als je problemen hebt met het vinden van het bestand via ownKeepass, controleer dan of je het bestand in één van de genoemde locaties hebt geplaatst. &quot;Persoonlijke map&quot; is meestal &quot;%1&quot;. Als je een SD-kaart in de telefoon hebt, bevindt deze zich meestal in &quot;/media/sdcard/&lt;UUID&gt;&quot;. (Let op: SD-kaarten met meer dan één partitie worden niet ondersteund.) &quot;Android-opslag&quot; bevindt zich in &quot;%2&quot;.&lt;br&gt;&lt;br&gt;Advies: als je je Keepass-database uploadt naar een clouddienst, zorg er dan voor dat je een lokaal opgeslagen sleutel gebruikt naast het hoofdwachtwoord. Dit sleutelbestand mag niet worden geüpload naar de clouddienst.&lt;br&gt;&lt;br&gt;&lt;b&gt;Het sleutelbestand gebruiken&lt;/b&gt;Als je een sleutelbestand nodig hebt om je Keepass-database te openen, vink dan die optie aan.&lt;br&gt;&lt;br&gt;&lt;b&gt;Hoofdwachtwoord&lt;/b&gt;&lt;br&gt;&lt;br&gt;Typ hier het wachtwoord voor je Keepass-database.&lt;br&gt;&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -1034,12 +1034,12 @@
     <message>
         <location filename="../qml/help/HelpPage.qml" line="49"/>
         <source>Password Safe</source>
-        <translation>Jelszó Széf</translation>
+        <translation>Wachtwoordkluis</translation>
     </message>
     <message>
         <location filename="../qml/help/HelpPage.qml" line="57"/>
         <source>Help</source>
-        <translation>Súgó</translation>
+        <translation>Hulp</translation>
     </message>
 </context>
 <context>
@@ -1048,29 +1048,29 @@
         <location filename="../qml/content/KdbListItem.qml" line="46"/>
         <source>Deleting group</source>
         <extracomment>This is used in the remorseAction when attempting to delete a password group</extracomment>
-        <translation>Csoport törlése</translation>
+        <translation>Groep wordt verwijderd</translation>
     </message>
     <message>
         <location filename="../qml/content/KdbListItem.qml" line="53"/>
         <source>Deleting entry</source>
         <extracomment>This is used in the remorseAction when attempting to delete a password entry</extracomment>
-        <translation>Bejegyzés törlése</translation>
+        <translation>Invoer wordt verwijderd</translation>
     </message>
     <message>
         <location filename="../qml/content/KdbListItem.qml" line="166"/>
         <source>Edit</source>
-        <translation>Szerkeszt</translation>
+        <translation>Bewerken</translation>
     </message>
     <message>
         <location filename="../qml/content/KdbListItem.qml" line="184"/>
         <source>Delete</source>
-        <translation>Töröl</translation>
+        <translation>Verwijderen</translation>
     </message>
     <message>
         <location filename="../qml/content/KdbListItem.qml" line="201"/>
         <source>Move</source>
         <extracomment>used in menu to move the password entry into another group</extracomment>
-        <translation>Áthelyez</translation>
+        <translation>Verplaatsen</translation>
     </message>
 </context>
 <context>
@@ -1078,12 +1078,12 @@
     <message>
         <location filename="../qml/content/LicensePage.qml" line="47"/>
         <source>Password Safe</source>
-        <translation>Jelszó Széf</translation>
+        <translation>Wachtwoordkluis</translation>
     </message>
     <message>
         <location filename="../qml/content/LicensePage.qml" line="55"/>
         <source>License</source>
-        <translation>Licensz</translation>
+        <translation>Licentie</translation>
     </message>
 </context>
 <context>
@@ -1091,32 +1091,32 @@
     <message>
         <location filename="../qml/content/LockPage.qml" line="54"/>
         <source>Close Database</source>
-        <translation>Adatbázis Bezárása</translation>
+        <translation>Database sluiten</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="77"/>
         <source>Password Safe</source>
-        <translation>Jelszó Széf</translation>
+        <translation>Wachtwoordkluis</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="136"/>
         <source>Unlock your Password Safe with the first 3 characters of your master password:</source>
-        <translation>Nyisd fel a Jelszó Széfet a mester jelszavad első 3 karakterének megadásával:</translation>
+        <translation>Ontgrendel de wachtwoordkluis met de eerste 3 tekens van je hoofdwachtwoord:</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="235"/>
         <source>You have %1 tries left</source>
-        <translation>1 lehetőséged maradt</translation>
+        <translation>Je hebt nog %1 poging(en)</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="237"/>
         <source>You have one try left</source>
-        <translation>Egyetlen, utolsó próbálkozásod maradt!</translation>
+        <translation>Dit is de laatste poging</translation>
     </message>
     <message>
         <location filename="../qml/content/LockPage.qml" line="239"/>
         <source>Wrong unlock code</source>
-        <translation>Hibás feloldó kód</translation>
+        <translation>Onjuiste vergrendelingscode</translation>
     </message>
 </context>
 <context>
@@ -1124,107 +1124,107 @@
     <message>
         <location filename="../qml/content/MainPage.qml" line="281"/>
         <source>Problem with SD card</source>
-        <translation>Gond adódott az SD kártyával</translation>
+        <translation>Er is een probleem met de SD-kaart</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="282"/>
         <source>SD cards with multiple partitions are not supported.</source>
-        <translation>A több partícióval is rendelkező SD kártyák nem támogatottak.</translation>
+        <translation>SD-kaarten met meerdere partities worden niet ondersteund.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="322"/>
         <source>Create new database</source>
-        <translation>Új adatbázis létrehozása</translation>
+        <translation>Nieuwe database aanmaken</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="338"/>
         <source>Open database</source>
-        <translation>Adatbázis megnyitása</translation>
+        <translation>Database openen</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="365"/>
         <source>Password Safe</source>
-        <translation>Jelszó Széf</translation>
+        <translation>Wachtwoordkluis</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="465"/>
         <source>Type in a master password for locking your new Keepass Password Safe:</source>
-        <translation>Adj meg egy mester jelszót az új Keepass Jelszó Széfedhez:</translation>
+        <translation>Typ een hoofdwachtwoord voor het vergrendelen van je nieuwe Keepass-wachtwoordkluis:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="472"/>
         <source>Path and name for new database</source>
         <extracomment>This is on the first page. The user has not yet created any Keepass databases. It gives the info where the new default database will be created.</extracomment>
-        <translation>Új adatbázis elérési útvonala és neve</translation>
+        <translation>Pad en naam van de nieuwe database</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="485"/>
         <source>Path and name of database</source>
         <extracomment>This is on the first page where the user inputs the master password of his Keepass database.</extracomment>
-        <translation>Adatbázis elérési útvonala és neve</translation>
+        <translation>Pad en naam van de database</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="645"/>
         <source>Permission error</source>
-        <translation>Jogosultsági hiba</translation>
+        <translation>Rechtenfout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="645"/>
         <source>Cannot create path for your Keepass database file. You may need to set directory permissions for user &apos;nemo&apos;.</source>
-        <translation>A Keepass adatbázis fájl nem elérhető. Elképzelhető, hogy a &apos;nemo&apos; nevű felhasználó számára be kell állítanod a mappa-jogosultságokat.</translation>
+        <translation>Het pad naar je Keepass-databasebestand kan niet worden aangemaakt. Wellicht moet je de maprechten van gebruiker &apos;nemo&apos; instellen.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="650"/>
         <location filename="../qml/content/MainPage.qml" line="667"/>
         <source>Key file error</source>
-        <translation>Kulcsfájl hiba.</translation>
+        <translation>Sleutelbestandsfout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="650"/>
         <location filename="../qml/content/MainPage.qml" line="667"/>
         <source>Database path is ok, but your key file is not present. Please check path to key file:</source>
-        <translation>Az adatbázis elérési útja helyes, ám a kulcsfájl nem található. Ellenőrizd a kulcsfájlt:</translation>
+        <translation>Het pad naar de database klopt maar je sleutelbestand is niet aanwezig. Controleer het pad naar het sleutelbestand:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="655"/>
         <source>Database file already exists</source>
-        <translation>Az adatbázis fájl már létezik</translation>
+        <translation>Databasebestand bestaat al</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="655"/>
         <source>Please specify another path and name for your Keepass database or delete the old database within a file browser.</source>
-        <translation>Kérjük adjon meg egy másik elérési utat és nevet a Keepass adatbázis részére, vagy fájlkezelőből töröld a régit.</translation>
+        <translation>Geef een ander pad en andere naam voor je Keepass-database op of verwijder de oude database met een bestandsbeheerder.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="672"/>
         <source>Database file error</source>
-        <translation>Adatbázis fájlhiba</translation>
+        <translation>Databasebestandsfout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="672"/>
         <source>Database file does not exist. Please check path to database file:</source>
-        <translation>Az adatbázis állomány nem létezik. Kérjük ellenőrizze az adatbázis fájl elérési útját:</translation>
+        <translation>Het databasebestand bestaat niet. Controleer het pad naar de database.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="167"/>
         <source>Database file</source>
-        <translation>Adatbázis fájl</translation>
+        <translation>Databasebestand</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="168"/>
         <source>The specified file is not a Keepass database.</source>
-        <translation>A megadott fájl nem Keepass adatbázis.</translation>
+        <translation>Het opgegeven bestand is geen Keepass-database.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="174"/>
         <location filename="../qml/content/MainPage.qml" line="239"/>
         <source>Database version</source>
-        <translation>Adatbázis verzió</translation>
+        <translation>Database-versie</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="175"/>
         <source>The specified file has an unsupported Keepass database version.</source>
-        <translation>A megadott fájl a Keepass adatbázis egy nem támogatott verziójával készült.</translation>
+        <translation>Het opgegeven bestand heeft een niet-ondersteunde Keepass-database-versie.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="135"/>
@@ -1233,227 +1233,227 @@
         <location filename="../qml/content/MainPage.qml" line="202"/>
         <location filename="../qml/content/MainPage.qml" line="234"/>
         <source>Internal database error</source>
-        <translation>Belső adatbázis hiba</translation>
+        <translation>Interne databasefout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="102"/>
         <source>Could not load database with following error:</source>
-        <translation>Az adatbázist a következő hiba miatt nem lehet betölteni:</translation>
+        <translation>De database kon niet worden geladen omdat er een fout is opgetreden:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="113"/>
         <source>Entry not found</source>
-        <translation>Bejegyzés nem található:</translation>
+        <translation>Invoer niet gevonden</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="114"/>
         <source>Error while searching for password entry in database.</source>
-        <translation>A jelszó bejegyzés keresése közben hiba adódott.</translation>
+        <translation>Fout bij zoeken naar wachtwoordinvoer in database.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="119"/>
         <source>Group not found</source>
-        <translation>Csoport nem található.</translation>
+        <translation>Groep niet gevonden</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="120"/>
         <source>Error while searching for password group in database.</source>
-        <translation>A jelszócsoport keresése közben hiba adódott.</translation>
+        <translation>Fout bij zoeken naar wachtwoordgroep in database.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="125"/>
         <source>No database opened</source>
-        <translation>Nincs nyitott adatbázis</translation>
+        <translation>Geen database geopend</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="126"/>
         <source>Could not connect to a loaded database. This seems to be a bug.</source>
-        <translation>Nem lehet betöltött adatbázishoz csatlakozni. Ez programhibának tűnik.</translation>
+        <translation>Kon geen verbinding maken met een geladen database. Dit is waarschijnlijk een bug.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="148"/>
         <source>The following error occured during creation of the key for the database:</source>
-        <translation>Az adatbázis kulcsának generálásakor a következő hiba lépett fel:</translation>
+        <translation>De volgende fout is opgetreden tijdens het aanmaken van de sleutel voor de database:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="182"/>
         <source>Database headers are missing.</source>
-        <translation>Az adatbázis-fejlécek hiányoznak</translation>
+        <translation>Databaseheaders ontbreken.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="188"/>
         <location filename="../qml/content/MainPage.qml" line="195"/>
         <source>Wrong password</source>
-        <translation>Hibás jelszó</translation>
+        <translation>Verkeerd wachtwoord</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="189"/>
         <source>Either your master password is wrong or the database file is corrupt. Please try again.</source>
-        <translation>A mester jelszava hibás, vagy az adatbázis állomány sérült. Kérjük próbálja újra.</translation>
+        <translation>Je hoofdwachtwoord is onjuist of het databasebestand is corrupt. Probeer het opnieuw.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="196"/>
         <source>Either your master password is wrong or your key file is wrong. Please try again. If the error persists then either key file or database file is corrupt.</source>
-        <translation>Hibás a mester jelszava, vagy a kulcsfájl. Kérjük próbálja újra. Amennyiben a hiba továbbra is fennáll, úgy vagy a kulcsfájl, vagy az adatbázis állomány sérült.</translation>
+        <translation>Je hoofdwachtwoord is onjuist of je sleutelbestand is verkeerd. Als de fout aanhoudt, dan is ofwel het sleutelbestand of het databasebestand corrupt.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="203"/>
         <source>Database head doesn&apos;t match corresponding hash value.</source>
-        <translation>Az adatbázis nem egyezik meg a hozzá tartozó ellenőrző-összeggel.</translation>
+        <translation>Databaseheader komt niet overeen met de bijbehorende hashwaarde.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="209"/>
         <location filename="../qml/content/MainPage.qml" line="216"/>
         <source>File I/O error</source>
-        <translation>Fájl I/O hiba</translation>
+        <translation>Bestand-I/O-fout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="210"/>
         <source>Cannot open database file. Error details:</source>
-        <translation>Az adatbázis állomány nem nyitható meg. A hiba részletei:</translation>
+        <translation>Kan databasebestand niet openen. Foutdetails:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="217"/>
         <source>Cannot open key file. Error details:</source>
-        <translation>A kulcsfájl nem nyitható meg. A hiba részletei:</translation>
+        <translation>Kan sleutelbestand niet openen. Foutdetails:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="223"/>
         <location filename="../qml/content/MainPage.qml" line="229"/>
         <source>Internal Error</source>
-        <translation>Belső hiba</translation>
+        <translation>Interne fout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="224"/>
         <source>Something went wrong with dropping the database from the recent database list. That shouldn&apos;t happen. Please let me (the developer) know about that via email or at github. Thanks!</source>
-        <translation>Valami félresikerült az adatbázis aktuális listából való kiejtése közben. Ez nem kellett volna, hogy megtörténjen. Kérlek, értesíts (engem, a fejlesztőt) erről e-mailen vagy github-on. Köszönöm!</translation>
+        <translation>Er ging iets fout bij het laten vallen van de database uit de lijst met recent gebruikte databases. Dit zou niet mogen gebeuren. Laat mij (de ontwikkelaar) hier iets over weten via e-mail of op GitHub. Dankjewel!</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="230"/>
         <source>Something went wrong while trying to delete the database file. Error message:</source>
-        <translation>Valami félresikerült az adatbázis törlése közben. Hibaüzenet:</translation>
+        <translation>Er ging iets fout bij het proberen verwijderen van het databasebestand: Foutbericht:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="245"/>
         <source>Unknown error</source>
-        <translation>ismeretlen hiba</translation>
+        <translation>Onbekende fout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="737"/>
         <source>Password changed</source>
-        <translation>A jelszó megváltozott</translation>
+        <translation>Wachtwoord gewijzigd</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="737"/>
         <source>The master password of your database was changed successfully.</source>
-        <translation>Az adatbázishoz tartozó mester jelszó sikeresen meg lett változtatva.</translation>
+        <translation>Het hoofdwachtwoord van je database is succesvol gewijzigd.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="147"/>
         <source>Internal key error</source>
-        <translation>Belső kulcs hiba</translation>
+        <translation>Interne sleutelfout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="101"/>
         <location filename="../qml/content/MainPage.qml" line="251"/>
         <location filename="../qml/content/MainPage.qml" line="257"/>
         <source>Error loading database</source>
-        <translation>Hiba az adatbázis betöltése közben</translation>
+        <translation>Fout bij laden van database</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="141"/>
         <source>Internal file error</source>
-        <translation>Belső fájl hiba</translation>
+        <translation>Interne bestandsfout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="142"/>
         <source>The following error occured during creation of database:</source>
-        <translation>Az adatbázis létrehozásakor a következő hiba történt:</translation>
+        <translation>De volgende fout is opgetreden tijdens het aanmaken van de database:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="154"/>
         <source>Creation of backup group failed with following error:</source>
-        <translation>Hiba a tartalék csoport létrehozása közben:</translation>
+        <translation>De volgende fout is opgetreden tijdens het aanmaken van de backup-groep:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="107"/>
         <source>Save database error</source>
-        <translation>Hiba történt az adatbázis mentése közben</translation>
+        <translation>Fout bij opslaan van database</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="108"/>
         <source>Could not save database with following error:</source>
-        <translation>Az adatbázis mentése nem sikerült a következő hiba miatt:</translation>
+        <translation>De database kon niet worden opgeslagen omdat er een fout is opgetreden:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="136"/>
         <source>An error occured on closing your database:</source>
-        <translation>Hiba történt az adatbázis bezárásakor:</translation>
+        <translation>Er is een fout opgetreden tijdens het sluiten van je database:</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="160"/>
         <source>Crypto init error</source>
-        <translation>Titkosítás inicializálási hiba</translation>
+        <translation>Crypto init fout</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="161"/>
         <source>Cryptographic algorithms could not be initialized successfully. The database is closed again to prevent any attack. Please try to reopen the app. If the error persists please contact the developer.</source>
-        <translation>A titkosító algoritmus inicializálása nem sikerült. Az adatbázis le lett zárva, megelőzendő egy esetleges támadást. Kérjük próbálja meg ismét megnyitni ezt a programot. Amennyiben a hiba fennáll, lépjen kapcsolatba az alkalmazás fejlesztőjével.</translation>
+        <translation>Het versleutelingsalgoritme kon niet succesvol worden geïnitialiseerd. De database is weer gesloten om aanvallen te voorkomen. Probeer opnieuw de app te openen. Als de fout aanhoudt, neem dan contact op met de ontwikkelaar.</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="235"/>
         <source>Conversion of QString &quot;%1&quot; to Int failed</source>
-        <translation>A &quot;%1&quot; QString Int-re való konverziója sikertelen</translation>
+        <translation>Conversie van QString &quot;%1&quot; naar Int mislukt</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="252"/>
         <source>File %1 does not exist</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestand %1 bestaat niet</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="258"/>
         <source>Unable to open file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan bestand %1 niet openen</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="1117"/>
         <source>Drop from List</source>
-        <translation>Kiejtés a listából</translation>
+        <translation>Verwijderen uit lijst</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="1195"/>
         <source>Yes</source>
-        <translation>Igen</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="1196"/>
         <source>No</source>
-        <translation>Nem</translation>
+        <translation>Nee</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="1197"/>
         <source>Unsaved changes</source>
-        <translation>Elmentetlen változások</translation>
+        <translation>Niet-opgeslagen wijzigingen</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="1242"/>
         <source>Do you want to save changes to the password entry?</source>
-        <translation>El szeretnéd menteni a jelszó-bejegyzés módosításait?</translation>
+        <translation>Wil je de wijzigingen aan het wachtwoordveld opslaan?</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="1247"/>
         <source>Do you want to save changes to the password group?</source>
-        <translation>El szeretnéd menteni a jelszó csoport módosításait?</translation>
+        <translation>Wil je de wijzigingen opslaan naar de wachtwoordgroep?</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="1252"/>
         <source>Do you want to save changes to database settings?</source>
-        <translation>El szeretnéd menteni az adatbázis módosításait?</translation>
+        <translation>Wil je de wijzigingen in de database-instellingen opslaan?</translation>
     </message>
     <message>
         <location filename="../qml/content/MainPage.qml" line="1257"/>
         <source>Do you want to save changed settings values?</source>
-        <translation>El szeretnéd mondani a beállítások módosításait?</translation>
+        <translation>Wil je de wijzigingen in de instellingen opslaan?</translation>
     </message>
 </context>
 <context>
@@ -1461,22 +1461,22 @@
     <message>
         <location filename="../qml/components/MainPageMoreDetails.qml" line="38"/>
         <source>Show more details</source>
-        <translation>Több részlet megjelenítése</translation>
+        <translation>Meer details weergeven</translation>
     </message>
     <message>
         <location filename="../qml/components/MainPageMoreDetails.qml" line="77"/>
         <source>Key file path and name</source>
-        <translation>Kulcsfájl elérési útja és neve</translation>
+        <translation>Pad en naam van sleutelbestand</translation>
     </message>
     <message>
         <location filename="../qml/components/MainPageMoreDetails.qml" line="77"/>
         <source>No key file used</source>
-        <translation>Nincs használatban kulcsfájl</translation>
+        <translation>Er is geen sleutelbestand in gebruik</translation>
     </message>
     <message>
         <location filename="../qml/components/MainPageMoreDetails.qml" line="94"/>
         <source>Recent databases</source>
-        <translation>Nemrég megnyitott adatbázisok</translation>
+        <translation>Recente databases</translation>
     </message>
 </context>
 <context>
@@ -1485,17 +1485,17 @@
         <location filename="../qml/content/MovePasswordEntryDialog.qml" line="72"/>
         <source>Accept</source>
         <extracomment>&quot;Accept&quot; in dialog for choosing group to move password entry into</extracomment>
-        <translation>Elfogad</translation>
+        <translation>Aanvaarden</translation>
     </message>
     <message>
         <location filename="../qml/content/MovePasswordEntryDialog.qml" line="73"/>
         <source>Cancel</source>
-        <translation>Mégsem</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../qml/content/MovePasswordEntryDialog.qml" line="79"/>
         <source>Move password entry &quot;%1&quot; into following group:</source>
-        <translation>&quot;%1&quot; jelszó-bejegyzés áthelyezése a következő csoportba:</translation>
+        <translation>De wachtwoordinvoer &quot;%1&quot; verplaatsen naar de volgende groep:</translation>
     </message>
 </context>
 <context>
@@ -1503,27 +1503,27 @@
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="32"/>
         <source>Enter master password</source>
-        <translation>Gépeld be a mester jelszót</translation>
+        <translation>Hoofdwachtwoord invullen</translation>
     </message>
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="33"/>
         <source>Master password</source>
-        <translation>Mester jelszó</translation>
+        <translation>Hoofdwachtwoord</translation>
     </message>
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="34"/>
         <source>Confirm master password</source>
-        <translation>Mester jelszó megerősítése</translation>
+        <translation>Hoofdwachtwoord bevestigen</translation>
     </message>
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="35"/>
         <source>Master password confirmed</source>
-        <translation>Mester jelszó megerősítve</translation>
+        <translation>Hoofdwachtwoord bevestigd</translation>
     </message>
     <message>
         <location filename="../qml/common/PasswordFieldCombo.qml" line="36"/>
         <source>Confirm password</source>
-        <translation>Jelszó megerősítése</translation>
+        <translation>Wachtwoord bevestigd</translation>
     </message>
 </context>
 <context>
@@ -1531,43 +1531,43 @@
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="74"/>
         <source>Accept</source>
-        <translation>Elfogad</translation>
+        <translation>Aanvaarden</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="75"/>
         <source>Discard</source>
-        <translation>Mégsem</translation>
+        <translation>Verwerpen</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="83"/>
         <source>Generated password</source>
-        <translation>Generált jelszó</translation>
+        <translation>Gegenereerd wachtwoord</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="84"/>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="89"/>
         <source>No char group selected</source>
-        <translation>Nincs karakter-csoport kiválasztva</translation>
+        <translation>Geen tekengroep geselecteerd</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="113"/>
         <source>Length</source>
-        <translation>Hossz</translation>
+        <translation>Lengte</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="172"/>
         <source>Exclude look-alike characters</source>
-        <translation>Hasonló kinézetű karakterek kihagyása</translation>
+        <translation>Op elkaar lijkende tekens uitsluiten</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="183"/>
         <source>Ensure that the password contains characters from every group</source>
-        <translation>Bizonyosodj meg róla, hogy a jelszó minden csoportból tartalmaz karaktereket</translation>
+        <translation>Verifieer dat het wachtwoord tekens uit elke groep bevat</translation>
     </message>
     <message>
         <location filename="../qml/content/PasswordGeneratorDialog.qml" line="198"/>
         <source>Generate</source>
-        <translation>Generál</translation>
+        <translation>Genereren</translation>
     </message>
 </context>
 <context>
@@ -1575,60 +1575,60 @@
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="158"/>
         <source>Please specify a new Keepass database file:</source>
-        <translation>Kérlek adj meg egy új Keepass adatbázis fájlt:</translation>
+        <translation>Specificeer een nieuw Keepass-databasebestand:</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="185"/>
         <source>Please choose an existing Keepass database file:</source>
-        <translation>Kérlek válassz egy meglévő Keepass adatbázis fájlt:</translation>
+        <translation>Kies een bestaand Keepass-databasebestand:</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="119"/>
         <source>Use key file</source>
-        <translation>Kulcsfájl használata</translation>
+        <translation>Sleutelbestand gebruiken</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="87"/>
         <source>Cancel</source>
-        <translation>Mégsem</translation>
+        <translation>Annuleren</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="120"/>
         <source>Switch this on to use a key file together with a master password for your new Keepass database</source>
-        <translation>Ezt kapcsold be, ha az új Keepass adatbázisodhoz mester jelszó mellé kulcsfájlt is szeretnél használni</translation>
+        <translation>Als dit wordt ingeschakeld zal er naast het hoofdwachtwoord een sleutelbestand worden gebruikt voor je nieuwe Keepass-database</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="156"/>
         <source>Create</source>
-        <translation>Létrehoz</translation>
+        <translation>Aanmaken</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="157"/>
         <source>New Password Safe</source>
-        <translation>Új Jelszó Széf</translation>
+        <translation>Nieuwe wachtwoordkluis</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="163"/>
         <source>Type in a master password for locking your new Keepass Password Safe:</source>
-        <translation>Adj meg egy mester jelszót az új Keepass Jelszó Széfedhez:</translation>
+        <translation>Typ een hoofdwachtwoord voor het vergrendelen van je nieuwe Keepass-wachtwoordkluis:</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="183"/>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="208"/>
         <source>Open</source>
-        <translation>Megnyit</translation>
+        <translation>Openen</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="184"/>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="209"/>
         <source>Password Safe</source>
-        <translation>Jelszó Széf</translation>
+        <translation>Wachtwoordkluis</translation>
     </message>
     <message>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="190"/>
         <location filename="../qml/content/QueryPasswordDialog.qml" line="213"/>
         <source>Type in master password for unlocking your Keepass Password Safe:</source>
-        <translation>Adj meg egy mester jelszót a Keepass Jelszó Széfed megnyitásához:</translation>
+        <translation>Typ het hoofdwachtwoord voor het ontgrendelen van je Keepass-wachtwoordkluis:</translation>
     </message>
 </context>
 <context>
@@ -1636,22 +1636,22 @@
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="55"/>
         <source>No content</source>
-        <translation>Nincs tartalom</translation>
+        <translation>Geen inhoud</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="57"/>
         <source>Pull down to add URL, username, password, comment and additional attributes</source>
-        <translation>Húzd le a következők hozzáadásához: URL, felhasználónév, jelszó, megjegyzés vagy egyéb tulajdonság</translation>
+        <translation>Trek omlaag om URL, gebruikersnaam, wachtwoord, opmerking en extra attributen toe te voegen</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="74"/>
         <source>Read only mode</source>
-        <translation>Csak olvasható üzemmód</translation>
+        <translation>Alleen-lezen modus</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="80"/>
         <source>Edit password entry</source>
-        <translation>Jelszó-bejegyzés szerkesztése</translation>
+        <translation>Wachtwoordinvoer bewerken</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="115"/>
@@ -1665,46 +1665,46 @@
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="149"/>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="167"/>
         <source>Copy to clipboard</source>
-        <translation>Másolás vágólapra</translation>
+        <translation>Kopiëren naar klembord</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="131"/>
         <source>Username</source>
-        <translation>Felhasználónév</translation>
+        <translation>Gebruikersnaam</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="139"/>
         <source>Password</source>
-        <translation>Jelszó</translation>
+        <translation>Wachtwoord</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="148"/>
         <source>Comment</source>
-        <translation>Megjegyzés</translation>
+        <translation>Opmerking</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="170"/>
         <source>password</source>
         <extracomment>Translate &quot;password&quot; with all low letters. It is used in pattern matching to deside to hide additional attributes of Keepass 2 database.</extracomment>
-        <translation>jelszó</translation>
+        <translation>wachtwoord</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="172"/>
         <source>pin</source>
         <extracomment>&quot;pin&quot; like a pin number of your credit card or sim card. Translate &quot;pin&quot; with all low letters. It is used in pattern matching to deside to hide additional attributes of Keepass 2 database.</extracomment>
-        <translation>pin-kód</translation>
+        <translation>pin</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="174"/>
         <source>tan</source>
         <extracomment>&quot;tan&quot; like a tan list from your bank account. Translate &quot;tan&quot; with all low letters. It is used in pattern matching to deside to hide additional attributes of Keepass 2 database.</extracomment>
-        <translation>tan-kód</translation>
+        <translation>tan</translation>
     </message>
     <message>
         <location filename="../qml/content/ShowEntryDetailsPage.qml" line="176"/>
         <source>puk</source>
         <extracomment>&quot;puk&quot; like the (emergency) puk number of your sim card. Translate &quot;puk&quot; with all low letters. It is used in pattern matching to deside to hide additional attributes of Keepass 2 database.</extracomment>
-        <translation>puk-kód</translation>
+        <translation>puk</translation>
     </message>
 </context>
 </TS>

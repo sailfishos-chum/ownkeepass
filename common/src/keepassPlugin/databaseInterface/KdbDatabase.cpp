@@ -35,16 +35,11 @@ using namespace ownKeepassPublic;
 KdbDatabase::KdbDatabase(QObject *parent):
     QObject(parent),
     // set default values
-    m_keyTransfRounds(50000),
+    m_keyTransfRounds(15),
     m_cryptAlgorithm(0),
+    m_keyDerivationFunction(0),
     m_showUserNamePasswordsInListView(false),
-    m_readOnly(false),
-    m_connected(false),
-    m_database_type(DatabaseType::DB_TYPE_UNKNOWN)
-{
-}
-
-void KdbDatabase::connectToDatabaseClient()
+    m_readOnly(false)
 {
     // connect signals and slots to global DatabaseClient class
     bool ret = connect(this,
@@ -98,70 +93,32 @@ void KdbDatabase::connectToDatabaseClient()
                   SIGNAL(databasePasswordChanged()));
     Q_ASSERT(ret);
     ret = connect(this,
-                  SIGNAL(changeDatabaseKeyTransfRounds(int)),
+                  SIGNAL(changeDatabaseSettings(int,int,int)),
                   DatabaseClient::getInstance()->getInterface(),
-                  SLOT(slot_changeKeyTransfRounds(int)));
+                  SLOT(slot_changeDatabaseSettings(int,int,int)));
     Q_ASSERT(ret);
     ret = connect(DatabaseClient::getInstance()->getInterface(),
-                  SIGNAL(databaseKeyTransfRoundsChanged(int)),
+                  SIGNAL(databaseSettingsChanged(int,int,int)),
                   this,
-                  SLOT(slot_databaseKeyTransfRoundsChanged(int)));
-    Q_ASSERT(ret);
-    ret = connect(this,
-                  SIGNAL(changeDatabaseCryptAlgorithm(int)),
-                  DatabaseClient::getInstance()->getInterface(),
-                  SLOT(slot_changeCryptAlgorithm(int)));
-    Q_ASSERT(ret);
-    ret = connect(DatabaseClient::getInstance()->getInterface(),
-                  SIGNAL(databaseCryptAlgorithmChanged(int)),
-                  this,
-                  SLOT(slot_databaseCryptAlgorithmChanged(int)));
+                  SLOT(slot_databaseSettingsChanged(int,int,int)));
     Q_ASSERT(ret);
     ret = connect(DatabaseClient::getInstance()->getInterface(),
                   SIGNAL(errorOccured(int,QString)),
                   this,
                   SIGNAL(errorOccured(int,QString)));
     Q_ASSERT(ret);
-
-    m_connected = true;
 }
 
-void KdbDatabase::disconnectFromDatabaseClient()
+void KdbDatabase::open(const QString& dbFilePath, const QString &keyFilePath, const QString& password, bool readOnly)
 {
-    // disconnect all signals to backend
-    bool ret = disconnect(this, 0, 0, 0);
-    Q_ASSERT(ret);
-
-    m_connected = false;
-    m_database_type = DatabaseType::DB_TYPE_UNKNOWN;
-    emit typeChanged();
-}
-
-void KdbDatabase::open(const int databaseType, const QString& dbFilePath, const QString &keyFilePath, const QString& password, bool readonly)
-{
-    // check if a database is already open
-    if (m_connected) {
-// TODO add check for opened database
-// TODO return error to QML saying that database is already open
-        DatabaseClient::getInstance()->closeDatabaseInterface();
-        m_connected = false;
-    }
-
-    // first set up interface to database client
-    Q_ASSERT((databaseType > DatabaseType::DB_TYPE_UNKNOWN) && (databaseType <= DatabaseType::DB_TYPE_KEEPASS_2));
-    DatabaseClient::getInstance()->initDatabaseInterface(databaseType);
-    connectToDatabaseClient();
-    m_database_type = databaseType;
-    emit typeChanged();
-
     // send settings to new created database client interface
     emit setting_showUserNamePasswordsInListView(m_showUserNamePasswordsInListView);
     emit setting_sortAlphabeticallyInListView(m_sortAlphabeticallyInListView);
 
     // send signal to the global Keepass database interface component
-    emit openDatabase(dbFilePath, password, keyFilePath, readonly);
-    if (m_readOnly != readonly) {
-        m_readOnly = readonly;
+    emit openDatabase(dbFilePath, password, keyFilePath, readOnly);
+    if (m_readOnly != readOnly) {
+        m_readOnly = readOnly;
         emit readOnlyChanged();
     }
 }
@@ -182,23 +139,8 @@ void KdbDatabase::slot_databaseOpened(int result, QString errorMsg)
     emit databaseOpened(result, errorMsg);
 }
 
-void KdbDatabase::create(const int databaseType, const QString& dbFilePath, const QString &keyFilePath, const QString& password)
+void KdbDatabase::create(const QString& dbFilePath, const QString &keyFilePath, const QString& password)
 {
-    // check if a database is already open
-    if (m_connected) {
-// TODO add check for opened database
-// TODO return error to QML saying that database is already open
-        DatabaseClient::getInstance()->closeDatabaseInterface();
-        m_connected = false;
-    }
-
-    // first set up interface to database client
-    Q_ASSERT((databaseType > DatabaseType::DB_TYPE_UNKNOWN) && (databaseType <= DatabaseType::DB_TYPE_KEEPASS_2));
-    DatabaseClient::getInstance()->initDatabaseInterface(databaseType);
-    connectToDatabaseClient();
-    m_database_type = databaseType;
-    emit typeChanged();
-
     // send settings to new created database client interface
     emit setting_showUserNamePasswordsInListView(m_showUserNamePasswordsInListView);
     emit setting_sortAlphabeticallyInListView(m_sortAlphabeticallyInListView);
@@ -210,27 +152,37 @@ void KdbDatabase::create(const int databaseType, const QString& dbFilePath, cons
 
 void KdbDatabase::close()
 {
-    if (m_connected) {
-        // if a database is opened forward to database client interface
-        emit closeDatabase();
-    } else {
-        DatabaseClient::getInstance()->closeDatabaseInterface();
-        // signal to QML
-        emit databaseClosed();
-    }
+    // if a database is opened forward to database client interface
+    emit closeDatabase();
 }
 
 void KdbDatabase::slot_databaseClosed()
 {
-    disconnectFromDatabaseClient();
-    DatabaseClient::getInstance()->closeDatabaseInterface();
     // signal to QML
     emit databaseClosed();
 }
 
+void KdbDatabase::slot_databaseSettingsChanged(int cryptAlgo, int kdf, int rounds) {
+    if (cryptAlgo != m_cryptAlgorithm) {
+        m_cryptAlgorithm = cryptAlgo;
+        emit cryptAlgorithmChanged();
+    }
+    if (kdf != m_keyDerivationFunction) {
+        m_keyDerivationFunction = kdf;
+        emit keyDerivationFunctionChanged();
+    }
+    if (rounds != m_keyTransfRounds) {
+        m_keyTransfRounds = rounds;
+        emit keyTransfRoundsChanged();
+    }
+}
+
 void KdbDatabase::changePassword(const QString &password, const QString &keyFile)
 {
-    if (m_connected) {
-        emit changeDatabasePassword(password, keyFile);
-    }
+    emit changeDatabasePassword(password, keyFile);
+}
+
+void KdbDatabase::saveSettings()
+{
+    emit changeDatabaseSettings(m_cryptAlgorithm, m_keyDerivationFunction, m_keyTransfRounds);
 }

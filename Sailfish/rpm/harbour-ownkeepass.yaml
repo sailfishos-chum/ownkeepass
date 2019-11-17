@@ -1,6 +1,6 @@
 Name: harbour-ownkeepass
 Summary: A password safe application
-Version: 1.2.5
+Version: 2.0.0
 Release: 1
 Group: Qt/Qt
 URL: https://github.com/jobe-m/ownkeepass
@@ -25,9 +25,9 @@ PkgConfigBR:
 - Qt5Quick
 - libargon2
 - libsodium
-# - libgcrypt
-# Need to remove libgcrypt here since it clashes when trying to install devel package for version 1.5 (jolla repos) and 1.8 (mer.repos)
-# Make sure to install libgcrypt-devel from mer.repo manually into the build engine
+#- libgcrypt
+# Need to remove libgcrypt here since it clashes when trying to install devel package for version 1.5 (jolla repo) and 1.8 (OBS mer repo)
+# Make sure to install libgcrypt18-devel from OBS mer repo manually into the build engine
 
 PkgBR: []
 Files:
@@ -38,4 +38,4 @@ Files:
 - '%{_datadir}/icons/hicolor/256x256/apps'
 - '%{_datadir}/applications'
 - '%{_datadir}/harbour-ownkeepass'
-- '%attr(655,-,-) %{_bindir}'
+- '%attr(755,-,-) %{_bindir}'

@@ -46,16 +46,12 @@ public:
     virtual ~Keepass2DatabaseInterface();
 
 signals:
-    // signals to all objects
-    void disconnectAllClients();
-
     // signals to KdbDatabase object
     void databaseOpened(int result, QString errorMsg);
     void newDatabaseCreated();
     void databaseClosed();
     void passwordChanged();
-    void databaseKeyTransfRoundsChanged(int value);
-    void databaseCryptAlgorithmChanged(int value);
+    void databaseSettingsChanged(int cryptAlgo, int kdf, int rounds);
     void errorOccured(int result,
                       QString errorMsg);
 
@@ -140,7 +136,7 @@ public slots:
     void slot_openDatabase(QString filePath,
                            QString password,
                            QString keyfile,
-                           bool readonly);
+                           bool readOnly);
     void slot_createNewDatabase(QString filePath,
                                 QString password,
                                 QString keyfile,
@@ -149,8 +145,7 @@ public slots:
     void slot_closeDatabase();
     void slot_changePassKey(QString password,
                             QString keyFile);
-    void slot_changeKeyTransfRounds(int value);
-    void slot_changeCryptAlgorithm(int value);
+    void slot_changeDatabaseSettings(int cryptAlgo, int kdf, int rounds);
     void slot_setting_showUserNamePasswordsInListView(bool value) { m_setting_showUserNamePasswordsInListView = value; }
     void slot_setting_sortAlphabeticallyInListView(bool value) { m_setting_sortAlphabeticallyInListView = value; }
 
@@ -209,6 +204,7 @@ private:
     QUuid getGroupUuidFromDatabase(QString groupId);
     Group* getGroupFromDatabase(QString groupId);
     void loadMasterGroupsRecursive(QList<Group *> recurGroups, int level, QString rootGroupId, bool registerListModel);
+    void sendDatabaseSettingsToQml();
 
     void addToListModel(QString title, QString iconUuid, QString subTitle, QString itemId, int itemType, int itemLevel, QString modelId);
     void updateInListModel(QString title, QString iconUuid, QString subTitle, QString itemId, QString modelId);
@@ -216,8 +212,6 @@ private:
 private:
     // Keepass database handler
     Database* m_Database;
-    KeePass2Writer m_writer;
-    QString m_filePath;
 
     // settings
     bool m_setting_showUserNamePasswordsInListView;

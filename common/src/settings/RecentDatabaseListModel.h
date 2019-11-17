@@ -1,6 +1,6 @@
 /***************************************************************************
 **
-** Copyright (C) 2014 Marko Koschak (marko.koschak@tisno.de)
+** Copyright (C) 2014 - 2019 Marko Koschak (marko.koschak@tisno.de)
 ** All rights reserved.
 **
 ** This file is part of ownKeepass.

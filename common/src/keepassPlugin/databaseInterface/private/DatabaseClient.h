@@ -26,7 +26,6 @@
 #include <QObject>
 #include <QThread>
 #include "AbstractDatabaseInterface.h"
-#include "AbstractDatabaseFactory.h"
 
 
 namespace kpxPrivate {
@@ -41,20 +40,9 @@ public:
     // get Singleton
     static DatabaseClient* getInstance();
 
-    // init interface for specific database type
-    int initDatabaseInterface(const int type);
-
-    // close interface so that it can be initalized again
-    void closeDatabaseInterface();
-
     // access to internal database interface needed to connect to its slots
     QObject* getInterface() {
-        if (m_initialized) {
-            return dynamic_cast<QObject*>(m_interface);
-        } else {
-            Q_ASSERT(false);
-            return NULL;
-        }
+        return dynamic_cast<QObject*>(m_interface);
     }
 
 private:
@@ -62,14 +50,10 @@ private:
     DatabaseClient(QObject* parent = 0);
     Q_DISABLE_COPY(DatabaseClient)
 
-    AbstractDatabaseFactory* m_factory;
     AbstractDatabaseInterface* m_interface;
 
     QThread m_workerThread;
     static DatabaseClient* m_Instance;
-
-    // indicator for an initialized and ready to use database interface
-    bool m_initialized;
 };
 
 }

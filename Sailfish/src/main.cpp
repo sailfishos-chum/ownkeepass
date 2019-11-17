@@ -86,8 +86,8 @@ int main(int argc, char *argv[])
     qmlRegisterType<ownKeepassPublic::Language>(uri, 1, 0, "Language");
     qmlRegisterType<ownKeepassPublic::DatabaseAccessResult>(uri, 1, 0, "DatabaseAccessResult");
     qmlRegisterType<ownKeepassPublic::DatabaseItemType>(uri, 1, 0, "DatabaseItemType");
-    qmlRegisterType<ownKeepassPublic::DatabaseType>(uri, 1, 0, "DatabaseType");
-    qmlRegisterType<ownKeepassPublic::DatabaseType>(uri, 1, 0, "KeepassDefault");
+    qmlRegisterType<ownKeepassPublic::KeepassDefault>(uri, 1, 0, "KeepassDefault");
+    qmlRegisterType<ownKeepassPublic::Cipher>(uri, 1, 0, "Cipher");
 
     // Setup some class as context properties and make them accessible in QML
     QScopedPointer<OwnKeepassHelper> helper(new OwnKeepassHelper());
@@ -122,6 +122,10 @@ int main(int argc, char *argv[])
         // Danish
         case ownKeepassPublic::Language::DA:
             translator.load("harbour-ownkeepass-da.qm", SailfishApp::pathTo(QString("translations")).toLocalFile());
+            break;
+        // Dutch Belgium
+        case ownKeepassPublic::Language::NL_BE:
+            translator.load("harbour-ownkeepass-nl_BE.qm", SailfishApp::pathTo(QString("translations")).toLocalFile());
             break;
         // Dutch
         case ownKeepassPublic::Language::NL_NL:
