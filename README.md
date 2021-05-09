@@ -33,7 +33,6 @@ in descending order.
 In order to succesfully build this application, you need the following steps:
 - Clone this repository including the [KeepassXC] submodule (`git clone --recursive`)
 - Make sure the _Sailfish OS Build Engine_ has the following packages. Currently these packages are only available from **3rd-party repositories**.
-  - libgcrypt18-devel (**special handling needed, see below**)
   - libargon2-devel 
   - libsodium-devel 
 - Build the project using _Qt Creator_
