@@ -58,14 +58,7 @@ See also: https://gist.github.com/skvark/49a2f1904192b6db311a
 
 Now with these repositories added the build engine can automatically install libargon2-devel and libsodium-devel as they are listed under PkgConfigBR in the harbour-ownkeepass.yaml config file.
 
-However the libgcrypt18-devel package needs special handling. The build engine will refuse to install it automatically because it clashes with version 1.5 of libgcrypt-devel package from jolla official repo.
-
-Thus it needs to be installed manually in the Sailfish OS Manage Targets tool or from command line:
-
-    $ sb2 -t SailfishOS-3.1.0.12-i486 -m sdk-install -R zypper in libgcrypt18-devel
-    $ sb2 -t SailfishOS-3.1.0.12-armv7hl -m sdk-install -R zypper in libgcrypt18-devel
-
-Now building ownKeepass in Qt Creator should proceed succesfully.
+Building ownKeepass in Qt Creator should proceed succesfully.
 
 ## What is this?
 
