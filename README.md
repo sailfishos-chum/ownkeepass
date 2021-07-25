@@ -4,6 +4,8 @@ This is ownKeepass repository for OBS builds in Chum. This version is cleaned up
 
 ownKeepass looks for new developer(s) interested in working on it.
 
+Note that the this version was based on https://github.com/24mu13/ownkeepass which is a fork of https://github.com/jobe-m/ownkeepass . Forking was omitted as that would lead to accidental pull requests to other repositories. 
+
 __Original README below:__
 
 __I am sorry to say but I don't have the time to continue working on ownKeepass. That might change but currenlty I am too exhausted by private issues and duties.__
