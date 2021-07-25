@@ -41,21 +41,6 @@ isEmpty(VERSION) {
 message(Version in project config: $$VERSION)
 DEFINES += PROGRAMVERSION=\\\"$$VERSION\\\"
 
-# Following define is a trick to load the appropriate libraries of libgcrypt and libgpg-error depending
-# if compiled for emulator/jolla tablet (i486) or jolla phone (armv7hl)
-#
-# BE AWARE this only works on (Ubuntu) Linux, on Mac OS X and Windows you might need to specify ARCH_LIBS directly
-# Loading wrong architecture of libs into the rpm package will result in a not working app!
-#
-linux-g++-32 {
-    message(Loading libs for emulator / jolla tablet (i486))
-    ARCH_LIBS=i486_x86
-}
-linux-g++ {
-    message(Loading libs for jolla phone (arm))
-    ARCH_LIBS=armv7hl
-}
-
 # The name of the app
 # NOTICE: name defined in TARGET has a corresponding QML filename.
 #         If name defined in TARGET is changed, following needs to be
@@ -71,12 +56,6 @@ common_files.path   = /usr/share/$${TARGET}
 common_files.files += \
     ../common/images/covericons \
     ../common/images/wallicons
-password_generator_lib.path   = /usr/share/$${TARGET}/lib
-password_generator_lib.files += \
-    ../common/libs/$$ARCH_LIBS/libgcrypt.so.20 \
-    ../common/libs/$$ARCH_LIBS/libargon2.so.0 \
-    ../common/libs/$$ARCH_LIBS/libgpg-error.so.0 \
-    ../common/libs/$$ARCH_LIBS/libsodium.so.23
 
 # process all application icon sizes
 icon_file_86x86.path    = /usr/share/icons/hicolor/86x86/apps
@@ -94,7 +73,6 @@ RESOURCES = ../common/images/icons.qrc
 
 INSTALLS += \
     common_files \
-    password_generator_lib \
     icon_file_86x86 \
     icon_file_108x108 \
     icon_file_128x128 \
