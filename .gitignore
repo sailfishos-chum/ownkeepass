@@ -1,5 +1,6 @@
 *.user.*
 *.user
 *~
+*.o
 /build*
 /common/src/keepassPlugin/keepass2_database/build-keepassxc*
