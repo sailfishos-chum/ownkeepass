@@ -1,5 +1,11 @@
 # ownKeepass
 
+This is ownKeepass repository for OBS builds in Chum. This version is cleaned up and the build process slightly adjusted to make it possible to build at OBS.
+
+ownKeepass looks for new developer(s) interested in working on it.
+
+__Original README below:__
+
 __I am sorry to say but I don't have the time to continue working on ownKeepass. That might change but currenlty I am too exhausted by private issues and duties.__
 
 [Bug reports go here] - [Translations here]
