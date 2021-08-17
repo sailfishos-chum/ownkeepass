@@ -20,6 +20,7 @@ BuildRequires:  pkgconfig(Qt5Concurrent)
 BuildRequires:  libargon2-devel
 BuildRequires:  pkgconfig(libsodium)
 BuildRequires:  pkgconfig(libgcrypt)
+BuildRequires:  qt5-qttools-linguist
 
 %description
 ownKeepass is a password safe application for the Sailfish OS platform.
