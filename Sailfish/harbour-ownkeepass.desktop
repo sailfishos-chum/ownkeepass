@@ -5,3 +5,6 @@ Icon=harbour-ownkeepass
 Exec=harbour-ownkeepass
 Name=ownKeepass
 Comment=ownKeepass Password Safe
+
+[X-Sailjail]
+Sandboxing=Disabled
