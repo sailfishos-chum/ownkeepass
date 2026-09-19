@@ -109,7 +109,6 @@ OTHER_FILES += \
     qml/common/SilicaLabel.qml \
     qml/common/SilicaCoverPlaceholder.qml \
     qml/common/QueryDialog.qml \
-    qml/common/PageHeaderExtended.qml \
     qml/common/InfoPopup.qml \
     qml/content/ShowEntryDetailsPage.qml \
     qml/content/QueryPasswordDialog.qml \

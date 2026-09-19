@@ -52,11 +52,9 @@ Page {
             width: parent.width
             spacing: Theme.paddingLarge
 
-            PageHeaderExtended {
+            PageHeader {
                 title: "ownKeepass"
-                subTitle: qsTr("Password Safe")
-                subTitleOpacity: 0.5
-                subTitleBottomMargin: changeLogPage.orientation & Orientation.PortraitMask ? Theme.paddingSmall : 0
+                description: qsTr("Password Safe")
             }
 
             SilicaLabel {

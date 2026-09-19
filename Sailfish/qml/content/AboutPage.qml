@@ -43,11 +43,9 @@ Page {
             width: parent.width
             spacing: Theme.paddingLarge
 
-            PageHeaderExtended {
+            PageHeader {
                 title: qsTr("About ownKeepass")
-                subTitle: qsTr("Password Safe")
-                subTitleOpacity: 0.5
-                subTitleBottomMargin: aboutPage.orientation & Orientation.PortraitMask ? Theme.paddingSmall : 0
+                description: qsTr("Password Safe")
             }
 
             Image {

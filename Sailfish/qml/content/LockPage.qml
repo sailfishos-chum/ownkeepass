@@ -72,11 +72,9 @@ Page {
             width: parent.width
             spacing: -23
 
-            PageHeaderExtended {
+            PageHeader {
                 title: "ownKeepass"
-                subTitle: qsTr("Password Safe")
-                subTitleOpacity: 0.5
-                subTitleBottomMargin: lockPage.orientation & Orientation.PortraitMask ? Theme.paddingSmall : 0
+                description: qsTr("Password Safe")
             }
 
             // Add padding in landscape mode on tablet

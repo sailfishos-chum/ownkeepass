@@ -73,14 +73,12 @@ Page {
         width: parent.width
         height: pageHeader.height + searchField.height
 
-        PageHeaderExtended {
+        PageHeader {
             id: pageHeader
             anchors.top: parent.top
             anchors.left: parent.left
             width: parent.width
-            subTitle: "ownKeepass"
-            subTitleOpacity: 0.5
-            subTitleBottomMargin: groupsAndEntriesPage.orientation & Orientation.PortraitMask ? Theme.paddingSmall : 0
+            description: "ownKeepass"
         }
 
         SearchField {
