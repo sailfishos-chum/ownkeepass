@@ -28,12 +28,12 @@ include(../common/src/passwordGeneratorAdapter/passwordGeneratorAdapter.pri)
 
 # Get release version from .spec file and paste it further to c++ through a define
 isEmpty(VERSION) {
-    warning(Version string is empty, taking git tag as version instead...)
+    warning("Version string is empty, taking git tag as version instead...")
     GIT_TAG = $$system(git describe --tags --abbrev=0)
     GIT_VERSION = $$find(GIT_TAG, ^\\d+(\\.\\d+)?(\\.\\d+)?$)
     isEmpty(GIT_VERSION) {
         # Taking git tag as fallback but this shouldn't really happen
-        warning(Cannot find a valid git tag version, got: $$GIT_TAG)
+        warning("Cannot find a valid git tag version, got: $$GIT_TAG")
         GIT_VERSION = 0.0.0
     }
     !isEmpty(GIT_VERSION): VERSION = $$GIT_VERSION
