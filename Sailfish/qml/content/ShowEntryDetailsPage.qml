@@ -101,12 +101,10 @@ Page {
             width: parent.width
             spacing: Theme.paddingLarge
 
-            PageHeaderExtended {
+            PageHeader {
                 id: pageHeader
                 title: kdbEntry.title
-                subTitle: "ownKeepass"
-                subTitleOpacity: 0.5
-                subTitleBottomMargin: orientation & Orientation.PortraitMask ? Theme.paddingSmall : 0
+                description: "ownKeepass"
             }
 
             EntryTextArea {
