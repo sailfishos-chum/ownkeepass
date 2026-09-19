@@ -4,3 +4,8 @@
 *.o
 /build*
 /common/src/keepassPlugin/keepass2_database/build-keepassxc*
+Sailfish/translations/*.qm
+Sailfish/moc_*.cpp
+Sailfish/qrc_*.cpp
+Sailfish/Makefile
+Sailfish/harbour-ownkeepass
