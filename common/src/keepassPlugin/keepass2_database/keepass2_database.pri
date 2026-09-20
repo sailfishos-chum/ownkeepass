@@ -134,7 +134,7 @@ HEADERS += \
     $$SRC_DIR/format/Kdbx4Reader.h \
     $$SRC_DIR/format/KdbxXmlReader.h \
 \
-    $$SRC_DIR/totp/totp.cpp \
+    $$SRC_DIR/totp/totp.h \
     $$SRC_DIR/streams/StoreDataStream.h \
     $$SRC_DIR/streams/SymmetricCipherStream.h \
     $$SRC_DIR/streams/LayeredStream.h \
