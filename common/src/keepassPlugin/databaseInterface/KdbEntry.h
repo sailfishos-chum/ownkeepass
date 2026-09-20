@@ -47,16 +47,16 @@ class AdditionalAttributeItem
 {
 public:
     AdditionalAttributeItem(QString key, QString value, bool editKeyMode = false, bool errorHighlight = false, bool dummyItem = false, bool toBeCreated = false)
-        : m_key(key),
-          m_value(value),
-          m_edit_key_mode(editKeyMode),
-          m_original_key(key),
-          m_original_value(value),
-          m_to_be_deleted(false),
-          m_error_highlight(errorHighlight),
-          m_dummy_item(dummyItem),
-          m_to_be_created(toBeCreated),
-          m_modified(false)
+        : m_key(key)
+        , m_value(value)
+        , m_edit_key_mode(editKeyMode)
+        , m_original_key(key)
+        , m_original_value(value)
+        , m_to_be_deleted(false)
+        , m_to_be_created(toBeCreated)
+        , m_modified(false)
+        , m_error_highlight(errorHighlight)
+        , m_dummy_item(dummyItem)
     {}
     virtual ~AdditionalAttributeItem() {}
 
