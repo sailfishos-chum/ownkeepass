@@ -21,6 +21,7 @@
 ***************************************************************************/
 
 #include "QDebug"
+#include <QDateTime>
 #include "ownKeepassGlobal.h"
 #include "KdbEntry.h"
 #include "private/DatabaseClient.h"
@@ -60,8 +61,12 @@ KdbEntry::KdbEntry(QObject *parent)
       m_iconUuid_modified(false),
       m_new_entry_triggered(false),
       m_edited(false),
-      m_invalid_key(false)
+      m_invalid_key(false),
+      m_totpCode(""),
+      m_totpTimeRemaining(0),
+      m_hasTotp(false)
 {
+    connect(&m_totpTimer, &QTimer::timeout, this, &KdbEntry::updateTotp);
     clearListModel();
 
     // connect signals to backend
@@ -218,7 +223,6 @@ void KdbEntry::slot_entryDataLoaded(int result,
                                     QStringList values,
                                     QString iconUuid)
 {
-    Q_UNUSED(keys)
     // forward signal to QML only if the signal is for us
     if (entryId.compare(m_entryId) == 0) {
         clearData();
@@ -229,12 +233,38 @@ void KdbEntry::slot_entryDataLoaded(int result,
         m_original_password = m_password = values[KeepassDefault::PASSWORD];
         m_original_notes    = m_notes    = values[KeepassDefault::NOTES];
         m_original_iconUuid = m_iconUuid = iconUuid;
+        // Detect TOTP configuration from additional attributes
+        QString totpSettingsStr, totpSeedStr, totpOtpStr;
         for (int i = KeepassDefault::ADDITIONAL_ATTRIBUTES; i < keys.length(); i++) {
+            if (keys[i] == Totp::ATTRIBUTE_SETTINGS) totpSettingsStr = values[i];
+            else if (keys[i] == Totp::ATTRIBUTE_SEED) totpSeedStr = values[i];
+            else if (keys[i] == Totp::ATTRIBUTE_OTP) totpOtpStr = values[i];
+        }
+        if (!totpSettingsStr.isEmpty()) {
+            m_totpSettings = Totp::parseSettings(totpSettingsStr, totpSeedStr);
+        } else if (!totpOtpStr.isEmpty()) {
+            m_totpSettings = Totp::parseSettings(totpOtpStr);
+        }
+        if (m_totpSettings && !m_totpSettings->key.isEmpty()) {
+            m_hasTotp = true;
+            emit hasTotpChanged();
+            updateTotp();
+            m_totpTimer.start(1000);
+        }
+
+        for (int i = KeepassDefault::ADDITIONAL_ATTRIBUTES; i < keys.length(); i++) {
+            // Hide raw TOTP attributes when we have a working TOTP display
+            if (m_hasTotp && (keys[i] == Totp::ATTRIBUTE_SETTINGS ||
+                              keys[i] == Totp::ATTRIBUTE_SEED ||
+                              keys[i] == Totp::ATTRIBUTE_OTP)) {
+                continue;
+            }
             AdditionalAttributeItem item(keys[i], values[i]);
             beginInsertRows(QModelIndex(), rowCount(), rowCount());
             m_additional_attribute_items.append(item);
             endInsertRows();
         }
+
         // emit isEmptyChanged signal if list view was empty before
         if (m_additional_attribute_items.length() != FIRST_ITEM_POSITION) {
             emit isEmptyChanged();
@@ -304,6 +334,11 @@ void KdbEntry::clearData()
     m_notes_modified = false;
     m_iconUuid_modified = false;
     m_edited = false;
+    m_totpTimer.stop();
+    m_totpSettings.reset();
+    m_totpCode = "";
+    m_totpTimeRemaining = 0;
+    m_hasTotp = false;
     clearListModel();
 }
 
@@ -496,6 +531,25 @@ bool KdbEntry::setData(const QModelIndex & index, const QVariant & value, int ro
         emit invalidKeyChanged();
         emit modelDataChanged();
         return true;
+    }
+}
+
+void KdbEntry::updateTotp()
+{
+    if (!m_totpSettings) return;
+
+    quint64 now = QDateTime::currentMSecsSinceEpoch() / 1000;
+    uint step = m_totpSettings->custom ? m_totpSettings->step : m_totpSettings->encoder.step;
+    int remaining = step - (now % step);
+
+    QString code = Totp::generateTotp(m_totpSettings);
+    if (code != m_totpCode) {
+        m_totpCode = code;
+        emit totpCodeChanged();
+    }
+    if (remaining != m_totpTimeRemaining) {
+        m_totpTimeRemaining = remaining;
+        emit totpTimeRemainingChanged();
     }
 }
 

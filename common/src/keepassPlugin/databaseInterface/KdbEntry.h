@@ -25,8 +25,10 @@
 
 #include <QDebug>
 #include <QAbstractItemModel>
+#include <QTimer>
 #include "private/AbstractDatabaseInterface.h"
 #include "ownKeepassGlobal.h"
+#include "../../keepass2_database/keepassxc/src/totp/totp.h"
 
 #define ROLE_KEY             baseRole
 #define ROLE_VALUE           baseRole + 1
@@ -90,6 +92,10 @@ public:
     Q_PROPERTY(QString groupId READ getGroupId WRITE setGroupId NOTIFY entryDataLoaded)
     Q_PROPERTY(bool edited READ getEdited NOTIFY dataEdited)
     Q_PROPERTY(bool invalidKey READ getInvalidKey NOTIFY invalidKeyChanged)
+    Q_PROPERTY(bool hasTotp READ getHasTotp NOTIFY hasTotpChanged)
+    Q_PROPERTY(QString totpCode READ getTotpCode NOTIFY totpCodeChanged)
+    Q_PROPERTY(int totpTimeRemaining READ getTotpTimeRemaining NOTIFY totpTimeRemainingChanged)
+    Q_PROPERTY(int totpPeriod READ getTotpPeriod NOTIFY hasTotpChanged)
 
     // for list model
     Q_PROPERTY(bool isEmpty READ isEmpty NOTIFY isEmptyChanged)
@@ -136,6 +142,11 @@ signals:
                                      QString iconUuid);
     void deleteEntryFromKdbDatabase(QString entryId);
     void moveEntryInKdbDatabase(QString entryId, QString newGroupId);
+
+    // TOTP signals
+    void hasTotpChanged();
+    void totpCodeChanged();
+    void totpTimeRemainingChanged();
 
     // for list model
     void modelDataChanged();
@@ -184,6 +195,10 @@ public:
     void setGroupId(const QString value);
     bool getEdited() { checkIfEdited(); return m_edited; }
     bool getInvalidKey() const { return m_invalid_key; }
+    bool getHasTotp() const { return m_hasTotp; }
+    QString getTotpCode() const { return m_totpCode; }
+    int getTotpTimeRemaining() const { return m_totpTimeRemaining; }
+    int getTotpPeriod() const { return m_totpSettings ? m_totpSettings->step : 30; }
 
     // for reading list model
     int rowCount(const QModelIndex &parent = QModelIndex()) const;
@@ -198,6 +213,7 @@ public:
 private:
     void checkIfEdited();
     bool checkIfAdditionalAttibuteItemsModified();
+    void updateTotp();
 
 private:
     QList<AdditionalAttributeItem> m_additional_attribute_items;
@@ -226,6 +242,12 @@ private:
     bool m_new_entry_triggered;
     bool m_edited;
     bool m_invalid_key;
+
+    QSharedPointer<Totp::Settings> m_totpSettings;
+    QTimer m_totpTimer;
+    QString m_totpCode;
+    int m_totpTimeRemaining;
+    bool m_hasTotp;
 };
 
 // inline implementations

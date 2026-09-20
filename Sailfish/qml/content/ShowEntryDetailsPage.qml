@@ -142,6 +142,45 @@ Page {
                 passwordMode: true
             }
 
+            // TOTP section
+            Item {
+                width: parent.width
+                height: totpEntryArea.height
+                visible: kdbEntry.hasTotp
+                enabled: kdbEntry.hasTotp
+
+                EntryTextArea {
+                    id: totpEntryArea
+                    width: parent.width
+                    text: kdbEntry.totpCode
+                    label: qsTr("TOTP")
+                    menuLabel: qsTr("Copy to clipboard")
+                    onMenuClicked: copyToClipboard(text, label)
+                }
+
+                // Circular countdown indicator
+                ProgressCircle {
+                    id: totpCountdown
+                    anchors.top: totpEntryArea.top
+                    anchors.topMargin: Theme.paddingSmall
+                    anchors.right: parent.right
+                    anchors.rightMargin: Theme.horizontalPageMargin
+                    width: Theme.iconSizeMedium
+                    height: width
+                    value: kdbEntry.totpPeriod > 0 ?
+                        kdbEntry.totpTimeRemaining / kdbEntry.totpPeriod : 0
+                    progressColor: value < 0.2 ? Theme.errorColor : Theme.highlightColor
+                    backgroundColor: Theme.rgba(Theme.primaryColor, 0.2)
+
+                    Label {
+                        anchors.centerIn: parent
+                        text: kdbEntry.totpTimeRemaining
+                        font.pixelSize: Theme.fontSizeExtraSmall
+                        color: Theme.primaryColor
+                    }
+                }
+            }
+
             EntryTextArea {
                 id: entryCommentTextArea
                 text: kdbEntry.notes
