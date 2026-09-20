@@ -68,6 +68,25 @@ Page {
                 linkColor: Theme.highlightColor
                 font.pixelSize: Theme.fontSizeExtraSmall
                 text: "\
+<b>v2.1.0 Add support for OTP codes</b>\
+<ul>\
+<b>Add support for OTP codes, by SpecSierra</b>\
+<li>Replaced PageHeaderExtended with standard PageHeader </li>\
+<li>Small build fixes</li>\
+</ul>\
+<br>\
+<b>v2.0.4 Updated Finnish translations\</b>\
+<br>\
+<b>v2.0.3 Disable Sandboxing</b>\
+<br>\
+<b>v2.0.2 Move main source to Chum</b>\
+<ul>\
+<br>\
+<li>Add metadata, screenshots</li>\
+</ul>\
+<br>\
+<b>v2.0.1 add note regarding forks</b>\
+<br>\
 <b>v2.0.0 Refactor towards Keepass 2</b>\
 <ul>\
 <li>Removed legacy code for Keepass 1 support</li>\
