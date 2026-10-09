@@ -53,6 +53,8 @@ AINote: TOTP support developed with AI, but code human-reviewed.
 %dnl %patch -P 26 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
 %build
 
+CXXFLAGS="%{CXXFLAGS} -std=c++20"
+
 %qtc_qmake5  \
     VERSION=%{version}
 
