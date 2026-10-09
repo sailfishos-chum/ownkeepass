@@ -21,8 +21,9 @@ BuildRequires:  libargon2-devel
 BuildRequires:  pkgconfig(libsodium)
 BuildRequires:  pkgconfig(libgcrypt)
 BuildRequires:  qt5-qttools-linguist
-AIRating: H
-AINote: OwnKeepass without AI assisted features, based on 2.0.4
+
+# 2.1 introduced AI-assisted code
+Conflicts:     %{name} >= 2.1.0
 
 %description
 ownKeepass is a password safe application for the Sailfish OS platform.
@@ -43,6 +44,8 @@ Screenshots:
 Categories:
   - Office
   - Utility
+AIRating: H
+AINote: OwnKeepass without AI assisted features, based on 2.0.4
 
 %prep
 %setup -q -n %{name}-%{version}/Sailfish
