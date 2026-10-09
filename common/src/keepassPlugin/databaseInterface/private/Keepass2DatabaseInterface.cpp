@@ -158,7 +158,7 @@ void Keepass2DatabaseInterface::sendDatabaseSettingsToQml() {
         cipher = ownKeepassPublic::Cipher::CIPHER_UNKNOWN;
     }
     int kdf;
-    if (m_Database->kdf()->uuid() == KeePass2::KDF_ARGON2) {
+    if (m_Database->kdf()->uuid() == KeePass2::KDF_ARGON2D) {
         kdf = ownKeepassPublic::Cipher::KDF_ARGON2;
     } else if (m_Database->kdf()->uuid() == KeePass2::KDF_AES_KDBX4) {
         kdf = ownKeepassPublic::Cipher::KDF_AES_KDBX4;
@@ -204,7 +204,7 @@ void Keepass2DatabaseInterface::slot_createNewDatabase(QString filePath, QString
     m_Database = new Database();
 
     m_Database->rootGroup()->setName("Root group");
-    m_Database->setKdf(QSharedPointer<Argon2Kdf>::create());
+    m_Database->setKdf(QSharedPointer<Argon2Kdf>::create(Argon2Kdf::Type::Argon2d));
     if (!m_Database->setKey(masterKey)) {
         qDebug() << "ERROR: Could not set key in new created database!";
     }
@@ -993,7 +993,7 @@ const QImage Keepass2DatabaseInterface::getCustomIcon(const QString value)
 {
     Q_ASSERT(m_Database);
     const QUuid iconUuid = Tools::hexToUuid(value);
-    if (m_Database->metadata()->containsCustomIcon(iconUuid)) {
+    if (m_Database->metadata()->hasCustomIcon(iconUuid)) {
         return m_Database->metadata()->customIcon(iconUuid);
     } else {
         return QImage();
