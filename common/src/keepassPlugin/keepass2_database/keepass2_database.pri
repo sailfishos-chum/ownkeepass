@@ -47,7 +47,6 @@ SOURCES += \
     $$SRC_DIR/core/EntryAttributes.cpp \
     $$SRC_DIR/core/TimeInfo.cpp \
     $$SRC_DIR/core/DatabaseIcons.cpp \
-    $$SRC_DIR/core/FilePath.cpp \
     $$SRC_DIR/core/FileWatcher.cpp \
     $$SRC_DIR/zxcvbn/zxcvbn.c \
     $$SRC_DIR/core/PasswordGenerator.cpp \
@@ -109,7 +108,6 @@ HEADERS += \
     $$SRC_DIR/core/Global.h \
     $$SRC_DIR/core/TimeInfo.h \
     $$SRC_DIR/core/DatabaseIcons.h \
-    $$SRC_DIR/core/FilePath.h \
     $$SRC_DIR/core/FileWatcher.h \
     $$SRC_DIR/zxcvbn/zxcvbn.h \
     $$SRC_DIR/core/PasswordGenerator.h \

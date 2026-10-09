@@ -23,6 +23,7 @@ BuildRequires:  pkgconfig(libgcrypt)
 BuildRequires:  qt5-qttools-linguist
 
 Patch25:        keepassxc-2.5.4-fixes.patch
+Patch26:        keepassxc-2.6.6-fixes.patch
 
 %description
 ownKeepass is a password safe application for the Sailfish OS platform.
@@ -48,7 +49,8 @@ AINote: TOTP support developed with AI, but code human-reviewed.
 
 %prep
 %setup -q -n %{name}-%{version}/Sailfish
-%patch -P 25 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
+%dnl %patch -P 25 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
+%patch -P 26 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
 %build
 
 %qtc_qmake5  \
