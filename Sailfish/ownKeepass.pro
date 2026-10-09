@@ -20,6 +20,9 @@
 #
 ############################################################################
 
+# Source of keepassxc dependencies:
+include(../common/src/keepassPlugin/keepass2_database/botan.pri)
+
 # Sources of the keepass QML plugins
 include(../common/src/keepassPlugin/keepass2_database/keepass2_database.pri)
 include(../common/src/keepassPlugin/databaseInterface/databaseInterface.pri)

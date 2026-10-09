@@ -50,7 +50,7 @@ AINote: TOTP support developed with AI, but code human-reviewed.
 %prep
 %setup -q -n %{name}-%{version}/Sailfish
 %dnl %patch -P 25 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
-%patch -P 26 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
+%dnl %patch -P 26 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
 %build
 
 %qtc_qmake5  \

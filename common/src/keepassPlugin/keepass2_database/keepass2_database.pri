@@ -34,7 +34,6 @@ DEPENDPATH  += $$SRC_DIR
 SOURCES += \
     $$SRC_DIR/core/Base32.cpp \
     $$SRC_DIR/core/Config.cpp \
-    $$SRC_DIR/core/Compare.cpp \
     $$SRC_DIR/core/Clock.cpp \
     $$SRC_DIR/core/Tools.cpp \
     $$SRC_DIR/core/CustomData.cpp \
@@ -46,7 +45,7 @@ SOURCES += \
     $$SRC_DIR/core/EntryAttachments.cpp \
     $$SRC_DIR/core/EntryAttributes.cpp \
     $$SRC_DIR/core/TimeInfo.cpp \
-    $$SRC_DIR/core/DatabaseIcons.cpp \
+    $$SRC_DIR/gui/DatabaseIcons.cpp \
     $$SRC_DIR/core/FileWatcher.cpp \
     $$SRC_DIR/zxcvbn/zxcvbn.c \
     $$SRC_DIR/core/PasswordGenerator.cpp \
@@ -107,7 +106,7 @@ HEADERS += \
     $$SRC_DIR/core/EntryAttributes.h \
     $$SRC_DIR/core/Global.h \
     $$SRC_DIR/core/TimeInfo.h \
-    $$SRC_DIR/core/DatabaseIcons.h \
+    $$SRC_DIR/gui/DatabaseIcons.h \
     $$SRC_DIR/core/FileWatcher.h \
     $$SRC_DIR/zxcvbn/zxcvbn.h \
     $$SRC_DIR/core/PasswordGenerator.h \
