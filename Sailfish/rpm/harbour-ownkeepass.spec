@@ -57,7 +57,6 @@ AINote: OwnKeepass without AI assisted features, based on 2.0.4
 
 %prep
 %setup -q -n %{name}-%{version}/Sailfish
-%dnl %patch -P 25 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
 %patch -P 26 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
 %build
 
