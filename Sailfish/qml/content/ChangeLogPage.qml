@@ -68,9 +68,15 @@ Page {
                 linkColor: Theme.highlightColor
                 font.pixelSize: Theme.fontSizeExtraSmall
                 text: "\
-<b>v2.1.0 Add support for OTP codes</b>\
+<b>v2.0.5 Fork of the 2.0 series without AI-assisted code</b>\
+<p>The 2.1 series has the first contribution of AI assisted code merged. While\
+that code has been reviewed and looks fine, this branch is created to continue\
+an ownKeepass variant for people who don't want this, or indeed do not want TOTP capabilities.\
+2.0.5 onwards will be done on a best-effort basis and will try to follow the\
+main line if possible, but will remain AI-free.\
+</p>\
 <ul>\
-<b>Add support for OTP codes, by SpecSierra</b>\
+<li>Update keepassxc backend to 2.5.4.</li>
 <li>Replaced PageHeaderExtended with standard PageHeader </li>\
 <li>Small build fixes</li>\
 </ul>\
