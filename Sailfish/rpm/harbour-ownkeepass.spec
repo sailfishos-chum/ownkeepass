@@ -41,6 +41,8 @@ Screenshots:
 Categories:
   - Office
   - Utility
+AIRating: B
+AINote: TOTP support developed with AI, but code human-reviewed.
 
 %prep
 %setup -q -n %{name}-%{version}/Sailfish
