@@ -25,6 +25,8 @@ BuildRequires:  qt5-qttools-linguist
 # 2.1 introduced AI-assisted code
 Conflicts:     %{name} >= 2.1.0
 
+Patch25:        keepassxc-2.5.4-fixes.patch
+
 %description
 ownKeepass is a password safe application for the Sailfish OS platform.
 You can use it to store your passwords for webpages, PINs, TANs and any
@@ -49,7 +51,7 @@ AINote: OwnKeepass without AI assisted features, based on 2.0.4
 
 %prep
 %setup -q -n %{name}-%{version}/Sailfish
-
+%patch -P 25 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
 %build
 
 %qtc_qmake5  \
