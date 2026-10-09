@@ -2,3 +2,6 @@
 	path = common/src/keepassPlugin/keepass2_database/keepassxc
 	url = https://github.com/keepassxreboot/keepassxc.git
 	branch = master
+[submodule "common/src/keepassPlugin/keepass2_database/botan"]
+	path = common/src/keepassPlugin/keepass2_database/botan
+	url = https://github.com/randombit/botan
