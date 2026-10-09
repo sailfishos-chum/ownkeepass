@@ -33,6 +33,11 @@ You can use it to store your passwords for webpages, PINs, TANs and any
 other data that should be kept secret on your Jolla Smartphone. The
 database where that data is stored is encrypted using a master password.
 
+This is the no-AI branch, which lacks the following featues compared to the 2.1
+version:
+
+  - TOTP support.
+
 PackageName: ownKeepass
 Type: desktop-application
 Icon: https://raw.githubusercontent.com/sailfishos-chum/ownkeepass/master/Sailfish/icons/harbour-ownkeepass.svg
