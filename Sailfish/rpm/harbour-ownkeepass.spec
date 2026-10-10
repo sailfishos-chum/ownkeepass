@@ -11,6 +11,10 @@ Group:      Qt/Qt
 License:    GPL v2
 URL:        https://github.com/jobe-m/ownkeepass
 Source0:    %{name}-%{version}.tar.bz2
+
+Source2:    qfutureinterface.h
+Source3:    qtconcurrentthreadengine.h
+
 Requires:   sailfishsilica-qt5 >= 0.10.9
 BuildRequires:  pkgconfig(sailfishapp) >= 0.0.10
 BuildRequires:  pkgconfig(Qt5Core)
@@ -51,9 +55,11 @@ AINote: TOTP support developed with AI, but code human-reviewed.
 %setup -q -n %{name}-%{version}/Sailfish
 %dnl %patch -P 25 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
 %dnl %patch -P 26 -p1 -d ../common/src/keepassPlugin/keepass2_database/keepassxc/
+cp %{S:2} ../common/src/keepassPlugin/keepass2_database/keepassxc/src/core
+cp %{S:3} ../common/src/keepassPlugin/keepass2_database/keepassxc/src/core
 %build
 
-CXXFLAGS="%{CXXFLAGS} -std=c++20"
+CXXFLAGS="${CXXFLAGS} -std=c++20"
 
 %qtc_qmake5  \
     VERSION=%{version}
