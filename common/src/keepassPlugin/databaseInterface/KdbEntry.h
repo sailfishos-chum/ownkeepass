@@ -28,7 +28,7 @@
 #include <QTimer>
 #include "private/AbstractDatabaseInterface.h"
 #include "ownKeepassGlobal.h"
-#include "../../keepass2_database/keepassxc/src/totp/totp.h"
+#include "../../keepass2_database/keepassxc/src/core/Totp.h"
 
 #define ROLE_KEY             baseRole
 #define ROLE_VALUE           baseRole + 1

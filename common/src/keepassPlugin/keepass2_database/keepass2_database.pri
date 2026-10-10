@@ -23,12 +23,13 @@
 QT += gui concurrent core
 
 # KeepassXC uses libargon2, libgcrypt, lsodium and libz
-LIBS += -largon2 -lgcrypt -lsodium -lz
+LIBS += -lgcrypt -lsodium -lz
+LIBS += -lbotan-3
 
 SRC_DIR += $$PWD/keepassxc/src
 
 # enable preprocessor to find include paths
-INCLUDEPATH += $$SRC_DIR $$SRC_DIR/zxcvbn $$PWD/inc
+INCLUDEPATH += $$SRC_DIR $$SRC_DIR/thirdparty/zxcvbn $$PWD/inc
 DEPENDPATH  += $$SRC_DIR
 
 SOURCES += \
@@ -47,7 +48,7 @@ SOURCES += \
     $$SRC_DIR/core/TimeInfo.cpp \
     $$SRC_DIR/gui/DatabaseIcons.cpp \
     $$SRC_DIR/core/FileWatcher.cpp \
-    $$SRC_DIR/zxcvbn/zxcvbn.c \
+    $$SRC_DIR/thirdparty/zxcvbn/zxcvbn.c \
     $$SRC_DIR/core/PasswordGenerator.cpp \
 \
     $$SRC_DIR/keys/CompositeKey.cpp \
@@ -69,7 +70,7 @@ SOURCES += \
     $$SRC_DIR/format/Kdbx4Reader.cpp \
     $$SRC_DIR/format/KdbxXmlReader.cpp \
 \
-    $$SRC_DIR/totp/totp.cpp \
+    $$SRC_DIR/core/Totp.cpp \
     $$SRC_DIR/streams/StoreDataStream.cpp \
     $$SRC_DIR/streams/SymmetricCipherStream.cpp \
     $$SRC_DIR/streams/LayeredStream.cpp \
@@ -108,7 +109,7 @@ HEADERS += \
     $$SRC_DIR/core/TimeInfo.h \
     $$SRC_DIR/gui/DatabaseIcons.h \
     $$SRC_DIR/core/FileWatcher.h \
-    $$SRC_DIR/zxcvbn/zxcvbn.h \
+    $$SRC_DIR/thirdparty/zxcvbn/zxcvbn.h \
     $$SRC_DIR/core/PasswordGenerator.h \
 \
     $$SRC_DIR/keys/CompositeKey.h \
@@ -123,7 +124,6 @@ HEADERS += \
     $$SRC_DIR/crypto/Crypto.h \
     $$SRC_DIR/crypto/CryptoHash.h \
     $$SRC_DIR/crypto/SymmetricCipher.h \
-    $$SRC_DIR/crypto/SymmetricCipherGcrypt.h \
 \
     $$SRC_DIR/format/KeePass2.h \
     $$SRC_DIR/format/KeePass2Reader.h \
@@ -133,7 +133,7 @@ HEADERS += \
     $$SRC_DIR/format/Kdbx4Reader.h \
     $$SRC_DIR/format/KdbxXmlReader.h \
 \
-    $$SRC_DIR/totp/totp.h \
+    $$SRC_DIR/core/Totp.h \
     $$SRC_DIR/streams/StoreDataStream.h \
     $$SRC_DIR/streams/SymmetricCipherStream.h \
     $$SRC_DIR/streams/LayeredStream.h \
