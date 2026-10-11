@@ -158,7 +158,7 @@ void Keepass2DatabaseInterface::sendDatabaseSettingsToQml() {
         cipher = ownKeepassPublic::Cipher::CIPHER_UNKNOWN;
     }
     int kdf;
-    if (m_Database->kdf()->uuid() == KeePass2::KDF_ARGON2D) {
+    if ((m_Database->kdf()->uuid() == KeePass2::KDF_ARGON2D) || (m_Database->kdf()->uuid() == KeePass2::KDF_ARGON2ID)) {
         kdf = ownKeepassPublic::Cipher::KDF_ARGON2;
     } else if (m_Database->kdf()->uuid() == KeePass2::KDF_AES_KDBX4) {
         kdf = ownKeepassPublic::Cipher::KDF_AES_KDBX4;
