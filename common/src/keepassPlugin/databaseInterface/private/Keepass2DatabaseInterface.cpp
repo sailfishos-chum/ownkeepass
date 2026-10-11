@@ -204,7 +204,7 @@ void Keepass2DatabaseInterface::slot_createNewDatabase(QString filePath, QString
     m_Database = new Database();
 
     m_Database->rootGroup()->setName("Root group");
-    m_Database->setKdf(QSharedPointer<Argon2Kdf>::create(Argon2Kdf::Type::Argon2d));
+    m_Database->setKdf(QSharedPointer<Argon2Kdf>::create(Argon2Kdf::Type::Argon2id));
     if (!m_Database->setKey(masterKey)) {
         qDebug() << "ERROR: Could not set key in new created database!";
     }
