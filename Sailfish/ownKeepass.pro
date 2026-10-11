@@ -64,6 +64,8 @@ icon_file_108x108.path  = /usr/share/icons/hicolor/108x108/apps
 icon_file_108x108.files = icons/108x108/$${TARGET}.png
 icon_file_128x128.path  = /usr/share/icons/hicolor/128x128/apps
 icon_file_128x128.files = icons/128x128/$${TARGET}.png
+icon_file_172x172.path  = /usr/share/icons/hicolor/172x172/apps
+icon_file_172x172.files = icons/172x172/$${TARGET}.png
 icon_file_256x256.path  = /usr/share/icons/hicolor/256x256/apps
 icon_file_256x256.files = icons/256x256/$${TARGET}.png
 
@@ -76,6 +78,7 @@ INSTALLS += \
     icon_file_86x86 \
     icon_file_108x108 \
     icon_file_128x128 \
+    icon_file_172x172 \
     icon_file_256x256
 
 # adding standard installation paths for a sailfish OS app

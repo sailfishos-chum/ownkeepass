@@ -65,6 +65,7 @@ rm -rf %{buildroot}
 %{_datadir}/icons/hicolor/86x86/apps
 %{_datadir}/icons/hicolor/108x108/apps
 %{_datadir}/icons/hicolor/128x128/apps
+%{_datadir}/icons/hicolor/172x172/apps
 %{_datadir}/icons/hicolor/256x256/apps
 %{_datadir}/applications
 %{_datadir}/harbour-ownkeepass
