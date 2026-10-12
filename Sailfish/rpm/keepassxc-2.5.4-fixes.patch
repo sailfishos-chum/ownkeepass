@@ -1,0 +1,14 @@
+diff --git a/src/core/FileWatcher.h b/src/core/FileWatcher.h
+index 9b55badc..3ba8bfcd 100644
+--- a/src/core/FileWatcher.h
++++ b/src/core/FileWatcher.h
+@@ -19,7 +19,9 @@
+ #define KEEPASSXC_FILEWATCHER_H
+ 
+ #include <QFileSystemWatcher>
++#include <QMap>
+ #include <QSet>
++#include <QDateTime>
+ #include <QTimer>
+ #include <QVariant>
+ 

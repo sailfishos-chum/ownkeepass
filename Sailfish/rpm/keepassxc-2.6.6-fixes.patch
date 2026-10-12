@@ -1,0 +1,43 @@
+diff --git a/src/core/DatabaseIcons.cpp b/src/core/DatabaseIcons.cpp
+index b8d5fd38..1117dafa 100644
+--- a/src/core/DatabaseIcons.cpp
++++ b/src/core/DatabaseIcons.cpp
+@@ -20,7 +20,7 @@
+ #include "core/Config.h"
+ #include "core/Global.h"
+ #include "core/Resources.h"
+-#include "gui/MainWindow.h"
++//#include "gui/MainWindow.h"
+ 
+ #include <QDir>
+ #include <QImageReader>
+diff --git a/src/core/Metadata.cpp b/src/core/Metadata.cpp
+index 859c5a49..7907022b 100644
+--- a/src/core/Metadata.cpp
++++ b/src/core/Metadata.cpp
+@@ -16,7 +16,7 @@
+  */
+ 
+ #include "Metadata.h"
+-#include <QApplication>
++//#include <QApplication>
+ #include <QtCore/QCryptographicHash>
+ 
+ #include "core/Clock.h"
+@@ -376,6 +376,7 @@ void Metadata::addCustomIcon(const QUuid& uuid, const QImage& image)
+     // TODO: This check can go away when we move all QIcon handling outside of core
+     // On older versions of Qt, loading a QPixmap from QImage outside of a GUI
+     // environment causes ASAN to fail and crash on nullptr violation
++    /*
+     static bool isGui = qApp->inherits("QGuiApplication");
+     if (isGui) {
+         // Generate QIcon with pre-baked resolutions
+@@ -385,6 +386,8 @@ void Metadata::addCustomIcon(const QUuid& uuid, const QImage& image)
+     } else {
+         m_customIcons.insert(uuid, QIcon());
+     }
++    */
++    m_customIcons.insert(uuid, QIcon());
+ 
+     emit metadataModified();
+ }
