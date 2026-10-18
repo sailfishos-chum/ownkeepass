@@ -141,40 +141,53 @@ Page {
             }
 
             // TOTP section
-            Item {
+            Label {
+                visible: kdbEntry.hasTotp && !ownKeepassSettings.wantOtp
+                x: Theme.horizontalPageMargin
+                width: parent.width - Theme.horizontalPageMargin*2
+                height: Theme.itemSizeMedium
+                text: qsTr("A TOTP Code would appear here, but this is disabled in the settings.")
+                font.pixelSize: Theme.fontSizeSmall
+                color: Theme.secondaryHighlightColor
+                wrapMode: Text.Wrap
+            }
+
+            Loader {
+                active: kdbEntry.hasTotp && ownKeepassSettings.wantOtp
+
                 width: parent.width
-                height: totpEntryArea.height
-                visible: kdbEntry.hasTotp
-                enabled: kdbEntry.hasTotp
+                sourceComponent: Item {
+                    height: totpEntryArea.height
 
-                EntryTextArea {
-                    id: totpEntryArea
-                    width: parent.width
-                    text: kdbEntry.totpCode
-                    label: qsTr("TOTP")
-                    menuLabel: qsTr("Copy to clipboard")
-                    onMenuClicked: copyToClipboard(text, label)
-                }
+                    EntryTextArea {
+                        id: totpEntryArea
+                        width: parent.width
+                        text: kdbEntry.totpCode
+                        label: qsTr("TOTP")
+                        menuLabel: qsTr("Copy to clipboard")
+                        onMenuClicked: copyToClipboard(text, label)
+                    }
 
-                // Circular countdown indicator
-                ProgressCircle {
-                    id: totpCountdown
-                    anchors.top: totpEntryArea.top
-                    anchors.topMargin: Theme.paddingSmall
-                    anchors.right: parent.right
-                    anchors.rightMargin: Theme.horizontalPageMargin
-                    width: Theme.iconSizeMedium
-                    height: width
-                    value: kdbEntry.totpPeriod > 0 ?
-                        kdbEntry.totpTimeRemaining / kdbEntry.totpPeriod : 0
-                    progressColor: value < 0.2 ? Theme.errorColor : Theme.highlightColor
-                    backgroundColor: Theme.rgba(Theme.primaryColor, 0.2)
+                    // Circular countdown indicator
+                    ProgressCircle {
+                        id: totpCountdown
+                        anchors.top: totpEntryArea.top
+                        anchors.topMargin: Theme.paddingSmall
+                        anchors.right: parent.right
+                        anchors.rightMargin: Theme.horizontalPageMargin
+                        width: Theme.iconSizeMedium
+                        height: width
+                        value: kdbEntry.totpPeriod > 0 ?
+                            kdbEntry.totpTimeRemaining / kdbEntry.totpPeriod : 0
+                        progressColor: value < 0.2 ? Theme.errorColor : Theme.highlightColor
+                        backgroundColor: Theme.rgba(Theme.primaryColor, 0.2)
 
-                    Label {
-                        anchors.centerIn: parent
-                        text: kdbEntry.totpTimeRemaining
-                        font.pixelSize: Theme.fontSizeExtraSmall
-                        color: Theme.primaryColor
+                        Label {
+                            anchors.centerIn: parent
+                            text: kdbEntry.totpTimeRemaining
+                            font.pixelSize: Theme.fontSizeExtraSmall
+                            color: Theme.primaryColor
+                        }
                     }
                 }
             }

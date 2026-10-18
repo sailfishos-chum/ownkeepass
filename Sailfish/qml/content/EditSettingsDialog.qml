@@ -49,6 +49,7 @@ Dialog {
     property bool expertModeChanged: false
     property bool languageChanged: false
     property bool uiOrientationChanged: false
+    property bool wantOtpChanged: false
 
     function updateCoverState() {
         if (saveCoverState === "") // save initial state
@@ -171,6 +172,18 @@ Dialog {
                     text: qsTr("Setting this value higher increases opening time of the Keepass database but makes it more robust against brute force attacks")
                     font.pixelSize: Theme.fontSizeExtraSmall
                     color: Theme.secondaryColor
+                }
+            }
+
+            // FIXME: we really should guard changing this, (PIN or so?)
+            // otherwise having the option is a bit pointless...
+            TextSwitch {
+                id: wantOtp
+                checked: ownKeepassSettings.wantOtp
+                text: qsTr("OTP Support")
+                description: qsTr("Calculate and display OTP codes if present in the database.")
+                onCheckedChanged: {
+                    ownKeepassSettings.wantOtp = wantOtp.checked
                 }
             }
 
