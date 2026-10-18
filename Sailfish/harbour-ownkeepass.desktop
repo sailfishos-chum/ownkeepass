@@ -7,4 +7,7 @@ Name=ownKeepass
 Comment=ownKeepass Password Safe
 
 [X-Sailjail]
-Sandboxing=Disabled
+#Sandboxing=Disabled
+OrganizationName=tisno.de
+ApplicationName=harbour-ownkeepass
+Permissions=UserDirs;RemovableMedia
